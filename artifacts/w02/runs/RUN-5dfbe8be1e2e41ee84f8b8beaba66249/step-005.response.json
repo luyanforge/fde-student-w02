@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a-ROLE-ZHOU-MSG-02615-3\",\"statement\":\"访谈中不授予数据权限，需走正式流程\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"范围：本次访谈，不涵盖其他场合\",\"作用：解释是否授予数据权限\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02615\",\"quote\":\"这次访谈里我不批\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3986,
+    "completion_tokens": 710,
+    "total_tokens": 4696
+  }
+}

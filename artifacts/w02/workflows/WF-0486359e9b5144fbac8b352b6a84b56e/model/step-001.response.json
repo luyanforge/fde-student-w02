@@ -1,0 +1,21 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "type": "function",
+        "function": {
+          "name": "inspect_materials",
+          "arguments": "{}"
+        },
+        "id": "k5ebEgp88A0W0hoJvseiB5RsZ8ahZmv8"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1708,
+    "completion_tokens": 71,
+    "total_tokens": 1779
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"受访者理解本期需重点核实会员表中“活跃”口径定义及与120万全量会员的关系，据此安排数据提取与口径对齐顺序。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：周老师\",\n        \"语境：受访者为聚焦问题提出澄清请求，反映其当前对本期核查重点的理解\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02599\",\n          \"quote\": \"活跃会员\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}\n```"
+  },
+  "usage": {
+    "prompt_tokens": 4045,
+    "completion_tokens": 1370,
+    "total_tokens": 5415
+  }
+}

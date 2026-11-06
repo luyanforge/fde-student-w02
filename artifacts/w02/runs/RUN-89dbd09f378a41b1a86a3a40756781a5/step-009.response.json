@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-017\",\n      \"statement\": \"林（会员）称对回访会员范围的划分依据这次先不展开，只说准备做什么由后续确认。\",\n      \"kind\": \"opinion\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"角色：林（会员）\",\n        \"范围：w02-scenario-0.1.3 qinghe 场景（活）\",\n        \"效力边界：林声明该账为个人工作记录，非公司统一口径\",\n        \"对应问题：focus Q2 会员范围划分依据及三方说法是否一致\",\n        \"待核：该范围划分依据、技术运营门店说法差异\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02858\",\n          \"quote\": \"准备做什么\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4112,
+    "completion_tokens": 780,
+    "total_tokens": 4892
+  }
+}

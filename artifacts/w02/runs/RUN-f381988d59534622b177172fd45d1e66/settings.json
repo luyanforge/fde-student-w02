@@ -1,0 +1,40 @@
+{
+  "config": {
+    "version": "w02-extractor-0.1.0",
+    "scope_id": "qinghe",
+    "sources": [
+      "artifacts/w02/workflows/WF-8937cb050a2c4c92ac4e05b6402c4642/sources/0.json",
+      "artifacts/w02/workflows/WF-8937cb050a2c4c92ac4e05b6402c4642/sources/1.json",
+      "artifacts/w02/workflows/WF-8937cb050a2c4c92ac4e05b6402c4642/sources/2.json",
+      "artifacts/w02/workflows/WF-8937cb050a2c4c92ac4e05b6402c4642/sources/3.json"
+    ],
+    "prompt": "artifacts/w02/workflows/WF-8937cb050a2c4c92ac4e05b6402c4642/inputs/prompt.md",
+    "focus_questions": [
+      "会员（付费会员卡／免费注册会员）、订单（线上／门店）、门店三类数据分别由谁维护、由谁授权导出，取数需要哪些前置条件和签批环节？",
+      "会员范围的划分依据是什么，最终裁决权归谁；技术、运营、门店三方对该范围的说法是否一致？",
+      "「活跃会员」与「80 万」的口径定义、出数报表与核实状态；它与全量 120 万会员是什么关系？",
+      "上期智能营销平台的实际使用状态、未被使用的原因，以及结项结论的性质与凭据所在。",
+      "优惠券等活动的发放与核销分别由谁记录，效果数据目前能否取得、以什么为准。",
+      "会员经营的现行实际流程（名单产生、执行安排、过程记录、结果反馈）由哪些角色承担，信息在各环节如何传递、在哪里断掉。",
+      "哪些陈述属于客户对现状的事实描述，哪些属于个人判断或目标，哪些是明确表示尚未核实的内容？",
+      "哪些问题在多个角色之间存在不同说法或互相指向，责任归属是否明确、是否存在无人负责的环节？"
+    ],
+    "batch_chars": 6000,
+    "max_batches": 24,
+    "reconcile_chars": 96000,
+    "profile": "compatible"
+  },
+  "adapter": "w02-extractor-0.1.0",
+  "timeout_seconds": 420.0,
+  "model_policy": {
+    "gateway_cache_bypass": true,
+    "wire_format": "gateway-extra-body-v1",
+    "request_profile": "compatible",
+    "max_tokens": 8192,
+    "retry_max_tokens": 16384,
+    "timeout": 420.0,
+    "retry_timeout": 420.0,
+    "token_limit_field": "max_tokens",
+    "extraction_thinking": "enabled"
+  }
+}

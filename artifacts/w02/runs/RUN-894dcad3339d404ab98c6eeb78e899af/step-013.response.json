@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"W02-ROLE-CHEN-00001\", \"statement\": \"会员、订单、门店三类数据分别由谁维护、由谁授权导出，取数需要哪些前置条件和签批环节，本批仅含访谈者提问，无受访者陈述\", \"kind\": \"question\", \"evidence_status\": \"unknown\", \"qualifiers\": [\"访谈者focus_question W02-ROLE-CHEN-00001：会员、订单、门店三类数据分别由谁维护、由谁授权导出，取数需要哪些前置条件和签批环节\", \"week 2\"], \"evidence\": [], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3703,
+    "completion_tokens": 399,
+    "total_tokens": 4102
+  }
+}

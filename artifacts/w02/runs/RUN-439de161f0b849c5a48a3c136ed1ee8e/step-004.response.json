@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"本期要求核实的数据使用条件，包含口径定义、流程周期与前置签批环节。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含访谈者提问，无受访者陈述\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4233,
+    "completion_tokens": 538,
+    "total_tokens": 4771
+  }
+}

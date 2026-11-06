@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"回访名单的筛选规则在访谈中未给出答案，只确认了执行流程但没说哪些会员该被回访。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本条引用自个人工作记录，非全公司统一数据口径\",\"待核：具体筛选条件和范围由谁定、以什么为准，待回访记录确认\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4166,
+    "completion_tokens": 509,
+    "total_tokens": 4675
+  }
+}

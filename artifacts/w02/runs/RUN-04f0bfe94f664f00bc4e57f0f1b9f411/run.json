@@ -1,0 +1,92 @@
+{
+  "contract_version": "w02-0.1.0-draft",
+  "run_id": "RUN-04f0bfe94f664f00bc4e57f0f1b9f411",
+  "stage": "extraction",
+  "mode": "live",
+  "status": "failed",
+  "model": {
+    "provider": "127.0.0.1",
+    "name": "Qwen3.8-35B-A3B",
+    "adapter_version": "w02-extractor-0.1.0"
+  },
+  "implementation": [
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/implementation/platform/fde_product/interview_extraction.py",
+      "sha256": "4158dd8cf48092fbd515c562e326d403e60d15feb76511dd04b9991c77de6e53"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/implementation/platform/fde_product/models.py",
+      "sha256": "17cac712394ede304b9d57f2c3adcf4cb5739bbd6264880efb9603bc5dacb223"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/implementation/tools/w02_interviews.py",
+      "sha256": "7dc6d6e55add4179c10f6cd41944606ee0a7a722ca2e5bc30b25ca4db31a3e00"
+    }
+  ],
+  "configuration": [
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/snapshot/artifacts/w02/workflows/WF-0056b22aa9144f078f54b5be51170de9/extraction.json",
+      "sha256": "a65df154ef6822661d210c86bb74e87d61891a649f60951060bd8bd017fe15e3"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/snapshot/artifacts/w02/workflows/WF-0056b22aa9144f078f54b5be51170de9/inputs/prompt.md",
+      "sha256": "d592da334d219c993a6e8fcb1d1d1d7fb716a73bd90d774fef602604ce4269e2"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/contracts/transcript.schema.json",
+      "sha256": "855f84b576d3f0b7bea82eac6b817fc0c8c723040f131f43075380110a823f9f"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/contracts/interview_facts.schema.json",
+      "sha256": "34358b1f9cca39f17f3d7b74abda732460be0beaba2f93b8e8f8bcaa3d2e0a80"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/contracts/run_evidence.schema.json",
+      "sha256": "4fed42abba5d6f9a727c52d6e3097e965ffa3b02ef855aadb2387ab1f890ebce"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/settings.json",
+      "sha256": "005ec0c331425648215c2ee527dc38af045624e79de21445612b874381736795"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/snapshot/artifacts/w02/workflows/WF-0056b22aa9144f078f54b5be51170de9/sources/0.json",
+      "sha256": "3601e68a5d56cb547842f9334fa7344da0bf304204c07b67d24acc0527f9b8d7"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/snapshot/artifacts/w02/workflows/WF-0056b22aa9144f078f54b5be51170de9/sources/1.json",
+      "sha256": "b548d6f81f241b1f663e1adcc38c374294de345b0dd954169d4452d12800eb83"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/snapshot/artifacts/w02/workflows/WF-0056b22aa9144f078f54b5be51170de9/sources/2.json",
+      "sha256": "8ff4fa00795972437c19d771ef8efeb8e97ef5e9991e7c3e4dac55590e011a97"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/snapshot/artifacts/w02/workflows/WF-0056b22aa9144f078f54b5be51170de9/sources/3.json",
+      "sha256": "19bae280e1d3680c92235a34b53dfc92d741bbbdc9f629eac45bcaef07c9a576"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/step-001.request.json",
+      "sha256": "43b94cf97f5cc8b7d06e9150b9bc95b3369b9fec025e93c578fb709fefe4fc26"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/step-001.attempts.json",
+      "sha256": "a6eb26a9c2c8741b54335398c985487594538313e3978c7b9562368dff116235"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/step-001.response.json",
+      "sha256": "77386b48c513f696288fd79f67f974f4fb26e61498c7396323464065cfc28060"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-04f0bfe94f664f00bc4e57f0f1b9f411/steps.json",
+      "sha256": "bba3634facf4ccc673566ad6a9e64e6daacdc704aa6b98dc37152ef07d023619"
+    }
+  ],
+  "error": {
+    "code": "QUOTE_NOT_FOUND",
+    "message": "检查位置：CLM-001-0001。本次失败；保留已有请求与公开响应，核对后创建新运行。"
+  }
+}

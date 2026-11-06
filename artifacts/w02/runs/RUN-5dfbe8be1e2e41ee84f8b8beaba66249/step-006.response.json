@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"QINGHE-W02-001\",\"statement\":\"周老师确认核查对象和用途的核查说明先交他检查能回答什么、还缺什么；签批口径和数据权限不在他当前职权内，也不在访谈内批。\",\"kind\":\"opinion\",\"evidence_status\":\"reported\",\"qualifiers\":[\"角色：周老师\",\"范围：核查对象和用途的确认流程与权限说明\",\"性质：个人判断，非公司口径，也不代表已签批的正式流程\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02663\",\"quote\":\"能回答什么\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3785,
+    "completion_tokens": 624,
+    "total_tokens": 4409
+  }
+}

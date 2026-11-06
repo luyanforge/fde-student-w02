@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"cl-01\",\n      \"statement\": \"会员体系里既有付费会员卡，也有免费注册会员，描述会员时这两类要分清楚。\",\n      \"kind\": \"opinion\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者明确将付费会员与免费注册会员视为两类，并强调在描述会员时应区分二者。\",\n        \"该说法为受访者个人理解，未经业务确认，不保证与任何正式口径一致。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"描述会员时这两类要分清楚\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    },\n    {\n      \"id\": \"cl-02\",\n      \"statement\": \"会员表里会员具体怎么定义、有没有需要排除的情况、一个手机号会不会对应多张会员卡，这些受访者表示无法确认。\",\n      \"kind\": \"opinion\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者声明会员定义、排除条件、手机号与会员卡关系等细节无法确认。\",\n        \"该说法为受访者个人认知，未经业务确认，不保证与任何正式口径一致。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"具体怎么定义\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    },\n    {\n      \"id\": \"cl-03\",\n      \"statement\": \"上一期平台系统侧是否还留有使用记录、按门店或角色大概多少人用、多久用一次，受访者表示无法确认。\",\n      \"kind\": \"opinion\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者声明上一期平台系统侧使用记录的留存情况、使用人数和频次无法确认。\",\n        \"该说法为受访者个人认知，未经业务确认，不保证与任何正式口径一致。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"还留没留使用记录\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3831,
+    "completion_tokens": 1122,
+    "total_tokens": 4953
+  }
+}

@@ -1,0 +1,1 @@
+{"claims":[{"id":"C-001","statement":"复购率连续四个季度在下滑。","kind":"fact","evidence_status":"reported","qualifiers":["角色：技术侧确认", "范围：复购率趋势，具体数值和出处由项目组核实"],"evidence":[{"meeting_id":"b78a67f5-b5f4-5966-867e-7f754fbf8e2a","message_id":"MSG-02600","quote":"在下滑"}],"conflict_ids":[],"review":{"status":"pending","note":""}}]}

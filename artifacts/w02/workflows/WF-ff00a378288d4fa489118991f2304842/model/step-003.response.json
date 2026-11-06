@@ -1,0 +1,21 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "type": "function",
+        "function": {
+          "name": "show_evidence",
+          "arguments": "{\"claim_ids\":[\"CLM-001-0001\", \"CLM-002-0002\", \"CLM-003-0003\"]}"
+        },
+        "id": "sQGVe5WAcHakJGegKLxAklYiPzQKAthn"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 18937,
+    "completion_tokens": 180,
+    "total_tokens": 19117
+  }
+}

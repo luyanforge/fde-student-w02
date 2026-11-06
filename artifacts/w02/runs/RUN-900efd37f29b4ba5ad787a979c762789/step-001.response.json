@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"53923a5e-132f-4d28-a54b-b215976443b7\",\n      \"statement\": \"受访者未直接回答会员、订单、门店分别落在哪些系统，而是要求先清楚核实的问题、数据范围和数据用途。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者对\\\"会员、订单、门店分别落在哪些系统\\\"的具体答复为：暂不展开，要求先理清核实问题与数据用途。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"数据范围和用途说清楚\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    },\n    {\n      \"id\": \"72d9e14f-63a9-4a09-8c2a-d51b38e67890\",\n      \"statement\": \"受访者确认会员体系包含付费卡会员和免费注册会员两类，描述会员时必须区分这两类。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者确认会员体系包含付费卡与免费注册两类，并要求描述会员时明确区分。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"会员表里会员\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    },\n    {\n      \"id\": \"d0b41c82-94a7-4f0e-b3c5-91f7e264a129\",\n      \"statement\": \"受访者表示无法确认会员具体定义和排除情况，需进一步核实会员定义等细节。\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"受访者表示无法确认会员表里\\\"会员\\\"的具体定义、注销黑名单和测试账号等排除情况，以及手机号对应多卡等细节。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"会员表里会员\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3622,
+    "completion_tokens": 1885,
+    "total_tokens": 5507
+  }
+}

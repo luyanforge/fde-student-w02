@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"核查说明需要按四要素拟好再交周老师看，但四要素具体是什么，周老师这次访谈没有列出。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：周老师\",\n        \"来源：周老师在2月13日工作访谈中说明核查说明需按四要素拟好\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02663\",\n          \"quote\": \"四要素\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4011,
+    "completion_tokens": 1887,
+    "total_tokens": 5898
+  }
+}

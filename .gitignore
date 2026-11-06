@@ -1,0 +1,21 @@
+# Local Python environments (rebuilt per machine, never part of the hand-in)
+.venv/
+.venv.broken-*/
+.venv.polluted-*/
+
+# Tool caches and runtime state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.runtime/
+.mypy_cache/
+.ruff_cache/
+
+# Model credentials: never commit, never package
+.model.env
+*.env
+!.env.example
+
+# Workflow lock files (recreated by the tools)
+artifacts/w02/.workflow.lock
+**/.workflow.lock

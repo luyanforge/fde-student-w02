@@ -1,0 +1,129 @@
+{
+  "contract_version": "w02-0.1.0-draft",
+  "run_id": "RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a",
+  "stage": "extraction",
+  "mode": "live",
+  "status": "succeeded",
+  "model": {
+    "provider": "127.0.0.1",
+    "name": "Qwen3.8-35B-A3B",
+    "adapter_version": "w02-extractor-0.1.0"
+  },
+  "implementation": [
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/implementation/platform/fde_product/interview_extraction.py",
+      "sha256": "4158dd8cf48092fbd515c562e326d403e60d15feb76511dd04b9991c77de6e53"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/implementation/platform/fde_product/models.py",
+      "sha256": "17cac712394ede304b9d57f2c3adcf4cb5739bbd6264880efb9603bc5dacb223"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/implementation/tools/w02_interviews.py",
+      "sha256": "7dc6d6e55add4179c10f6cd41944606ee0a7a722ca2e5bc30b25ca4db31a3e00"
+    }
+  ],
+  "configuration": [
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/extraction.json",
+      "sha256": "2f857a28e7ff866f44cd17a54583fea702cc55e9d88a7815f473fed261e230af"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/inputs/prompt.md",
+      "sha256": "800a2184742b32fc7de8810db7dc1a5f06910352c73ac9fa6835acfafac72953"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/contracts/transcript.schema.json",
+      "sha256": "855f84b576d3f0b7bea82eac6b817fc0c8c723040f131f43075380110a823f9f"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/contracts/interview_facts.schema.json",
+      "sha256": "34358b1f9cca39f17f3d7b74abda732460be0beaba2f93b8e8f8bcaa3d2e0a80"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/contracts/run_evidence.schema.json",
+      "sha256": "4fed42abba5d6f9a727c52d6e3097e965ffa3b02ef855aadb2387ab1f890ebce"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/settings.json",
+      "sha256": "6e3ee3a792f7e3ec1317d53c4db97e1333a178d56eafee813e74792b53712c4c"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/0.json",
+      "sha256": "3601e68a5d56cb547842f9334fa7344da0bf304204c07b67d24acc0527f9b8d7"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/1.json",
+      "sha256": "b548d6f81f241b1f663e1adcc38c374294de345b0dd954169d4452d12800eb83"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/2.json",
+      "sha256": "8ff4fa00795972437c19d771ef8efeb8e97ef5e9991e7c3e4dac55590e011a97"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/3.json",
+      "sha256": "19bae280e1d3680c92235a34b53dfc92d741bbbdc9f629eac45bcaef07c9a576"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-001.request.json",
+      "sha256": "bd06a8c7f58683e49dc45b624f7e50c757384ab9e288cdc0f5ae437f79b5e35d"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-001.attempts.json",
+      "sha256": "4c6752776a386ed520063dc2f99f2b58290b68013314f1fc55019c06a4311659"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-001.response.json",
+      "sha256": "ebd08dabf648265727bd95b59593ae14317804fa6d6d2d916065965f3b40356f"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-002.request.json",
+      "sha256": "5efd7f522d5068c6e492f0960d4079857b86257303115b729b4f15e1e36b35b5"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-002.attempts.json",
+      "sha256": "a910c2aaa1426dcc2dbbd8bde22f9b18490b77afe101cc89b029301afe294c59"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-002.response.json",
+      "sha256": "77eb036afd2a3db8ee41db40a42bbae0a71208b45e37d51139dc476b63462948"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-003.request.json",
+      "sha256": "f23fa715d7382621e6ee3aa2ad2d0ccbebbc59739516bd39f42c3a1c2960811f"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-003.attempts.json",
+      "sha256": "07f42805f353d28c26f78e1c069c59d4ed15c23e7afd2c597119112a6400280c"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-003.response.json",
+      "sha256": "2d7e45c5c4e3c0073ae90673cd009a3235064ab6ebf5547b02e9a13e78e019cd"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-004.request.json",
+      "sha256": "6a3f6172343aa6a843478d6b47b81c944604e8ae4429a620c2c11ee3f7c8e6de"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-004.attempts.json",
+      "sha256": "e37b5a2081c08dc183714ee7c5f1d15bd19a5c43fc5c825bf967e21d239328e1"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/step-004.response.json",
+      "sha256": "f57b28e8ca74747ab67aa39723712e560e3aeb2029168e2a26846f9bd21934bb"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/candidates.json",
+      "sha256": "0c431601b4bc3cb0b6e9f3b267e65eb434f5551ed8a85b5c052b2f58fbe7cd5b"
+    },
+    {
+      "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/steps.json",
+      "sha256": "4fcece8b432e065b17975a8e168b75800883c1f12da0f64e002ad86cea868261"
+    }
+  ],
+  "error": null
+}

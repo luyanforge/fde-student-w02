@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"B2-2-1\", \"statement\": \"受访者明确表示对活动名单到门店的具体环节不掌握\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"针对本批提问\", \"仅表述个人掌握情况，不等同于流程无记录\"], \"evidence\": [{\"meeting_id\": \"b23e54b2-7ca8-53ff-8aca-066201c759eb\", \"message_id\": \"MSG-02867\", \"quote\": \"这些具体环节我不掌握\"}], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3876,
+    "completion_tokens": 668,
+    "total_tokens": 4544
+  }
+}

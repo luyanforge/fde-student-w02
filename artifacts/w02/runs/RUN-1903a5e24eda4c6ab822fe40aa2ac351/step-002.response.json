@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"付费会员卡和免费注册会员确实是两类，描述会员时应分开；会员表里靠哪个字段或卡类型标记区分，周老师无法确认；算复购率时合并还是分开属于业务口径，不应由他定。\",\"kind\":\"fact\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"受访者对现状的事实描述\",\"技术侧口径边界声明，不涉业务决策\",\"明确说明会员表区分方式无法确认\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"付费会员卡\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4397,
+    "completion_tokens": 597,
+    "total_tokens": 4994
+  }
+}

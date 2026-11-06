@@ -1,0 +1,118 @@
+{
+  "checker_version": "w02-checker-0.2.0",
+  "contract_version": "w02-natural-0.1.0",
+  "workflow": "natural-language",
+  "status": "needs_revision",
+  "final_gate": "not_determined",
+  "options": {
+    "format": "natural",
+    "runs": [],
+    "knowledge_config": "customer/w02/knowledge.json",
+    "business_model": "docs/w02/business_model.md",
+    "interview_notes": "docs/w02/interview_notes.md",
+    "w1_fit_gap": "artifacts/w01/product_fit_gap.json",
+    "w2_fit_gap": null
+  },
+  "issues": [
+    {
+      "gate": "technical",
+      "item": "T01",
+      "code": "SOURCE_NOT_FOUND",
+      "path": "customer/w02/knowledge.json",
+      "next_step": "补齐引用文件；路径以客户仓库为基准。"
+    },
+    {
+      "gate": "technical",
+      "item": "T05",
+      "code": "COMPARISON_REQUIRED",
+      "path": "本人同题对照",
+      "next_step": "用 w02_knowledge.py compare 对本人问题运行同题对照；检查失败记录后再运行。"
+    }
+  ],
+  "completed": [
+    {
+      "item": "T03",
+      "check": "docs/w02/business_model.md"
+    },
+    {
+      "item": "D03",
+      "check": "docs/w02/interview_notes.md"
+    },
+    {
+      "item": "D04",
+      "check": "artifacts/w01/product_fit_gap.json"
+    }
+  ],
+  "runtime": [],
+  "roles": null,
+  "coverage": {
+    "comparison_pairs": 0
+  },
+  "review_queue": [
+    {
+      "gate": "technical",
+      "item": "T01",
+      "status": "pending",
+      "instruction": "检查本人提取目标、提示词或配置及实际候选，能解释并复跑。"
+    },
+    {
+      "gate": "technical",
+      "item": "T02",
+      "status": "pending",
+      "instruction": "抽查采用的信息是否得到原文支持，保留条件、观点与未知；不必手填复核枚举。"
+    },
+    {
+      "gate": "technical",
+      "item": "T03",
+      "status": "pending",
+      "instruction": "读业务模型说明，解释对象、属性、关系、规则及候选动作的选择与依据。"
+    },
+    {
+      "gate": "technical",
+      "item": "T04",
+      "status": "pending",
+      "instruction": "检查实际请求采用本次业务模型说明，回答是否使用相应定义。"
+    },
+    {
+      "gate": "technical",
+      "item": "T05",
+      "status": "pending",
+      "instruction": "审阅本人问题的未提供／提供说明对照、未知与分歧判读；有错误再修改重跑，不要求四类固定题。"
+    },
+    {
+      "gate": "delivery",
+      "item": "D01",
+      "status": "pending",
+      "instruction": "三位必访的实际追问是否取得具体业务信息。"
+    },
+    {
+      "gate": "delivery",
+      "item": "D02",
+      "status": "pending",
+      "instruction": "核对至少一组针对同一问题、影响判断的不同说法或解释、条件、来源和下一步；共同未知不算冲突，不依模型冲突数组自动判定。"
+    },
+    {
+      "gate": "delivery",
+      "item": "D03",
+      "status": "pending",
+      "instruction": "在访谈与核查记录中审阅干系人四问和来源，不另交地图文件。"
+    },
+    {
+      "gate": "delivery",
+      "item": "D04",
+      "status": "pending",
+      "instruction": "对照 W1 快照和原编号 fit-gap，核对新增证据及修改理由或无变化的依据。"
+    }
+  ],
+  "files": {
+    "artifacts/w01/product_fit_gap.json": "37a295343a8118b6974fdfb6dc730806220d48d0d38e7b3025ad220190044469",
+    "docs/w02/business_model.md": "7ed286b3212b66472c776978adaf04a4f88b4e330457ba955d2ba07bdd915969",
+    "docs/w02/interview_notes.md": "e97b83f49187bd115df9c6c950aab78aff24feff731ebca71ec68c3949ab88d6"
+  },
+  "limits": [
+    "结构通过不证明原文支持、人工核查或实际语义正确；九项人工判断均为 pending。",
+    "live 标签和哈希不证明远端执行或作者身份，需要时抽查复跑。",
+    "不强制本体 YAML、事实复核枚举、独立地图、图书馆或四类固定题。",
+    "W1 快照需与前周提交核对；无新增影响时在访谈记录说明。"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"lin-claims-0001\",\n      \"statement\": \"会员范围不是一个人能定，具体谁点头、按什么定，Lin这边不掌握\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者角色：林老师\",\n        \"这是个人说法，不是客户口径\",\n        \"针对会员范围裁决权归属问题\",\n        \"Lin明确说明不掌握具体决策人\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02854\",\n          \"quote\": \"我这边不掌握\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3898,
+    "completion_tokens": 897,
+    "total_tokens": 4795
+  }
+}

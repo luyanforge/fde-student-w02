@@ -1,0 +1,17 @@
+{
+  "version": "w02-extractor-0.1.0",
+  "scope_id": "fictional-library",
+  "sources": [
+    "examples/w02_extraction/front_desk.json",
+    "examples/w02_extraction/manager.json"
+  ],
+  "prompt": "templates/w02_extraction/extraction_prompt.txt",
+  "focus_questions": [
+    "借阅、预约和归还分别有哪些定义与限制？",
+    "不同角色关于借阅数量的说法有哪些限定和需要核实的分歧？"
+  ],
+  "batch_chars": 16000,
+  "max_batches": 24,
+  "reconcile_chars": 96000,
+  "profile": "compatible"
+}

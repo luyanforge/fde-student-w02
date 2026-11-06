@@ -1,0 +1,26 @@
+{
+  "claims": [
+    {
+      "id": "C-001",
+      "statement": "受访者（ROLE-SHEN）认为上期智能营销平台供应商没有交付好，但明确声明这是个人看法，不是结项结论；结项结论的凭据受访者不掌握，需另行核实。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "角色：沈总（ROLE-SHEN）",
+        "范围：上期智能营销平台结项结论与凭据"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+          "message_id": "MSG-02906",
+          "quote": "不能当凭据"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    }
+  ]
+}

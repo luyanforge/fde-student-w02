@@ -1,0 +1,112 @@
+[
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-001.request.json",
+      "sha256": "ecaec2daceeb468107e61b82c301db37592185ce04e08fc962c5a1399170a4f8"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-001.response.json",
+      "sha256": "82a43be5e4abf57400cdcd16ee7a92bffd9203376799c48ac628cd10ed4198c3"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-002.request.json",
+      "sha256": "64cf6fde3ead185a4073fbb9f0643183eea974bd8b14176b83becb6827699136"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-002.response.json",
+      "sha256": "dda71f961f89c61a17e50b1fc72bd1ff88628c35a28eb7c01ebb63bbf85747a6"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-003.request.json",
+      "sha256": "3accd000d6b9d7cea501bbe35f84ae9497c29bffc2986b8f753b15d3187aaf3d"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-003.response.json",
+      "sha256": "3d8d487b6271c3ed73eebb934ce255f038fa3cb8f4ca36d410674062be2f3f4a"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-004.request.json",
+      "sha256": "0e0d61740e4cf7a785cfb62d0ee5c24ef3e30b2bf162888d3ee22a47dc8af3f3"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-004.response.json",
+      "sha256": "bcbdcff977c6341267a5454d744fb54abf5c002fb4185630d2156c75b6ca3572"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-005.request.json",
+      "sha256": "562bb327d3453425346df566582f33856b448e4181ec1fa191c05f62dc407fca"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-005.response.json",
+      "sha256": "a54ac8155eefaf54005fca5b12198cd524f9f8eeb3bed3f36d82119f1d5db4f0"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-006.request.json",
+      "sha256": "c863bf46a47d0f0fc285c09a030a0e2fc736dfe4019fbbd345cbf7f6ef4d4cb8"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-006.response.json",
+      "sha256": "475adedfff26893dd9420f49ae126e407673bd093ba915d4ad408a9889cce4f1"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-007.request.json",
+      "sha256": "b626357efa40aa9d0398768d5695a6d527236909972264ecced0f6e87cf63615"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-007.response.json",
+      "sha256": "202d9e1d68b49d46e4dcc27462681b5c74b1c73441506cd751f4cac139666cb7"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-008.request.json",
+      "sha256": "7f7a508f5a2fea1a90b6911d2e4f504ff3d033b40e6f34d5e81ae11d07bc3f5f"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-008.response.json",
+      "sha256": "ee708ac14018cc8b158c1320ee4a5f90d8b455a0d426058f4ee033d615062630"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-009.request.json",
+      "sha256": "74afd14bb28f72369013601f6319c19fbe3595480c031dce175da894df02f684"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-009.response.json",
+      "sha256": "592d1ab857f7106bae789be7172aca9bc9fea4cca4d8c93431a05d2da05d0d7b"
+    }
+  },
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-010.request.json",
+      "sha256": "177ff049897919998d2971598f086d740ede1ce55def805583bad895bce96011"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-5dfbe8be1e2e41ee84f8b8beaba66249/step-010.response.json",
+      "sha256": "1c5e12881c223de33315fbbe3701b14f73b78e3dfc391f1686da44f303c70907"
+    }
+  }
+]

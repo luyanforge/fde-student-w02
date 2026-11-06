@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"本期技术核查前置条件、核查周期、120万会员口径、活跃会员与复购率定义，以及智能营销平台结项、优惠券发放核销、门店与会员经营流程的现状与责任归属，均须通过访谈各角色后由技术、运营与门店共同确认，并写入本方案作为前置条件；任何缺失的确认将导致本期无法承诺效果或暂缓接入。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含访谈者提问，无受访者陈述\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3851,
+    "completion_tokens": 262,
+    "total_tokens": 4113
+  }
+}

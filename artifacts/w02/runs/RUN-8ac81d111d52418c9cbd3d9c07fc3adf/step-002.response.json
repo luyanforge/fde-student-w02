@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": []}"
+  },
+  "usage": {
+    "prompt_tokens": 3725,
+    "completion_tokens": 151,
+    "total_tokens": 3876
+  }
+}

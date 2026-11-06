@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"周老师称会员、订单、门店数据分别由谁维护、谁有导出权限的具体责任和权限细节，他这边无法确认\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"角色：周老师\",\"范围：会员、订单、门店数据分别由谁维护、谁有导出权限\",\"性质：明确无法确认\",\"关联问题：focus_questions[0]\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02525\",\"quote\":\"无法确认\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3968,
+    "completion_tokens": 2409,
+    "total_tokens": 6377
+  }
+}

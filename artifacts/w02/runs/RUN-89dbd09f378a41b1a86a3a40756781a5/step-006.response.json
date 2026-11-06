@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"周老师承担会员范围与统计口径的确认职责，并说明运营方小林协同确认。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：周老师\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02663\",\n          \"quote\": \"会员范围我会和她一起确认\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3957,
+    "completion_tokens": 608,
+    "total_tokens": 4565
+  }
+}

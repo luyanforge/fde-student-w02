@@ -1,0 +1,26 @@
+{
+  "claims": [
+    {
+      "id": "C-001",
+      "statement": "林经理表示，优惠券等活动的效果按发放记录和使用反馈查看，但发放记录不能当核销记录用，具体状态还需核实。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "角色：林经理",
+        "范围：运营侧"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "aa9cc44b-243a-5f80-883f-d5e1cfc545b5",
+          "message_id": "MSG-02858",
+          "quote": "发放记录"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"Q-001\",\n      \"statement\": \"本期会员经营数据的范围与核实方法\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"本批仅含访谈者提问，无受访者陈述。\"\n      ],\n      \"evidence\": [],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4144,
+    "completion_tokens": 343,
+    "total_tokens": 4487
+  }
+}

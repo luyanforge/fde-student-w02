@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\"claims\":[{\"id\":\"claims-1\",\"statement\":\"会员体系里既有付费会员卡也有免费注册会员两类描述需分开\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"来自 ROLE-ZHOU 对会员体系构成的现状说明\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02597\",\"quote\":\"会员体系里既有付费会员卡\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"claims-2\",\"statement\":\"复购率连续四个季度在下滑是技术侧可确认的事实性陈述\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"需核实复购率具体数值与出处及报表依赖\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02603\",\"quote\":\"能确认的是它连续四个季度在下滑\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"claims-3\",\"statement\":\"120 万会员数是系统全量口径而非活跃会员定义下的结果\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"用于解释数字口径而非定义范围，需核对系统统计依据\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02615\",\"quote\":\"系统全量会员数\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"claims-4\",\"statement\":\"技术核查由受访者安排但具体对象与条件尚未确定\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"明确责任归属但核查对象未定，待运营确认接入条件后补充\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02617\",\"quote\":\"技术核查由我安排\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}\n```"
+  },
+  "usage": {
+    "prompt_tokens": 9678,
+    "completion_tokens": 10334,
+    "total_tokens": 20012
+  }
+}

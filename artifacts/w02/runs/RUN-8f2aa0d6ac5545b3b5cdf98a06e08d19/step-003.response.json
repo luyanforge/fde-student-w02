@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"沈总提的“80万活跃会员”中，“活跃”在系统里怎么定义、从哪个报表出数，受访者周老师无法确认。\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"角色：周老师，技术负责人。\",\n        \"范围：会员定义与报表出处。\",\n        \"限定：受访者声明无法确认，不属业务口径或核查结论。\",\n        \"来源：本批访谈中的受访者陈述。\",\n        \"待核：运营或会员管理角色是否另有定义，或是否有对应报表。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02600\",\n          \"quote\": \"沈总提的80万活跃会员\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4116,
+    "completion_tokens": 553,
+    "total_tokens": 4669
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"优惠券的核销记录在哪个环节查看、归谁负责，周老师不掌握，本期以联系IT负责人老周核实为准。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"待核问题\",\"引用：周老师\",\"核实方式：联系IT负责人老周\",\"范围：优惠券核销\"],\"evidence\":[{\"meeting_id\":\"b23e54b2-7ca8-53ff-8aca-066201c759eb\",\"message_id\":\"MSG-02862\",\"quote\":\"归谁管\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4116,
+    "completion_tokens": 1117,
+    "total_tokens": 5233
+  }
+}

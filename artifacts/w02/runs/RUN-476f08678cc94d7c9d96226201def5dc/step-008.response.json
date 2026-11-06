@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"受访者当前实际使用方式：绕开平台，手工维护一份 Excel 推进工作。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"受访者陈述，效力范围：当前实际使用方式\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02854\",\n          \"quote\": \"手工维护\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4124,
+    "completion_tokens": 777,
+    "total_tokens": 4901
+  }
+}

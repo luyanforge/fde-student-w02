@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"CL-2025-08-18-0001\",\"statement\":\"门店会员经营的实际执行环节（名单传递、执行记录与上一期智能营销平台使用）\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含访谈者提问，无受访者陈述\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3696,
+    "completion_tokens": 280,
+    "total_tokens": 3976
+  }
+}

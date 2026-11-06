@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "已读取材料与现有认识（W1 基线 + 11 条 GAP 对照表 + 四场访谈原文 + 核查记录模板）。现在调用提取工具取得候选。",
+    "tool_calls": [
+      {
+        "index": 0,
+        "id": "tool_4RoYHWkTz42mlXomrVFHDvoF",
+        "type": "function",
+        "function": {
+          "name": "extract_candidates",
+          "arguments": "{}{}"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 11007,
+    "completion_tokens": 80,
+    "total_tokens": 11087
+  }
+}

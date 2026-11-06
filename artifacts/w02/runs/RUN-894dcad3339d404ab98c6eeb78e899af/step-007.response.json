@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\"claims\":[{\"id\":\"W2-LIN-003\",\"statement\":\"林经理未确认80万活跃会员的口径，且该口径需按实际记录核实\",\"kind\":\"inference\",\"evidence_status\":\"reported\",\"qualifiers\":[\"对应focus_questions第3项；林经理声明无权确认全口径\"],\"evidence\":[{\"meeting_id\":\"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\"message_id\":\"MSG-02744\",\"quote\":\"得按实际记录核\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}\n```"
+  },
+  "usage": {
+    "prompt_tokens": 3853,
+    "completion_tokens": 1258,
+    "total_tokens": 5111
+  }
+}

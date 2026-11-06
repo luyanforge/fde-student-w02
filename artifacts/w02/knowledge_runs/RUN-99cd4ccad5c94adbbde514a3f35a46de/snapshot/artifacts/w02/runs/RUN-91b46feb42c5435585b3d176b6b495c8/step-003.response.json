@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"沈总对80万活跃会员的声明：按此数在看，不是已核实的口径。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"角色：沈总\",\"范围：80万活跃会员\",\"限定：非已核实口径\"],\"evidence\":[{\"meeting_id\":\"5aa0d411-3345-5aa3-851a-6977bc91a4ce\",\"message_id\":\"MSG-02904\",\"quote\":\"活跃会员\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4853,
+    "completion_tokens": 1665,
+    "total_tokens": 6518
+  }
+}

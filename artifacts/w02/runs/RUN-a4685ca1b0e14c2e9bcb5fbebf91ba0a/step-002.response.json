@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n\"claims\": [\n{\"id\":\"LIN-01\",\"statement\":\"上一期智能营销平台最后没人用，因为界面让操作多了三步。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者个人说法，未提供具体操作步骤或数据\"],\"evidence\":[{\"meeting_id\":\"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\"message_id\":\"MSG-02744\",\"quote\":\"最后没人用\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},\n{\"id\":\"LIN-02\",\"statement\":\"全公司数据口径不是林经理一个人能定的。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者声明权限边界，不代表已核实的全局规则\"],\"evidence\":[{\"meeting_id\":\"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\"message_id\":\"MSG-02744\",\"quote\":\"全公司数据口径\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},\n{\"id\":\"LIN-03\",\"statement\":\"林经理的 Excel 是个人工作记录，不能作为公司统一口径来源。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者明确声明效力边界\"],\"evidence\":[{\"meeting_id\":\"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\"message_id\":\"MSG-02744\",\"quote\":\"个人工作记录\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},\n{\"id\":\"CHEN-01\",\"statement\":\"陈经理负责大区门店会员活动的安排和跟进，并提到活动要求不清楚时反复沟通费力。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者个人感受与职责描述\"],\"evidence\":[{\"meeting_id\":\"b23e54b2-7ca8-53ff-8aca-066201c759eb\",\"message_id\":\"MSG-02867\",\"quote\":\"活动要求不清楚\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}\n]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4976,
+    "completion_tokens": 849,
+    "total_tokens": 5825
+  }
+}

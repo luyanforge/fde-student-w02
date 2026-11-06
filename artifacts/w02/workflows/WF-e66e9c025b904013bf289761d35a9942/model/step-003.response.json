@@ -1,0 +1,21 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "type": "function",
+        "function": {
+          "name": "request_review",
+          "arguments": "{\"claim_ids\":[\"CLM-002-0007\", \"CLM-003-0010\"],\"question\":\"智能营销平台上一期结项结论是什么？是否有正式报告或记录支持“没人用”的说法（小林访谈 MSG-02744），以及原因是否如所述为操作复杂导致；沈总称不掌握凭据且个人判断不能当依据，请确认结项材料所在及核实路径。\"}"
+        },
+        "id": "AojKu7W2idQ2nThRtiDKAKlKD9hOOt4n"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 15648,
+    "completion_tokens": 1795,
+    "total_tokens": 17443
+  }
+}

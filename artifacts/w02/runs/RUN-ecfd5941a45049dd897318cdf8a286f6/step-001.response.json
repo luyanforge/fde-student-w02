@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"B78A67F5-867E-001\",\n      \"statement\": \"会员、订单、门店三块数据由谁维护、谁有导出权限的具体责任无法确认。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"无法确认的具体责任和权限细节，受访者声明无法确认\",\n        \"与focus_questions 1相关\",\n        \"属于对事实的陈述\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"无法确认\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    },\n    {\n      \"id\": \"B78A67F5-867E-002\",\n      \"statement\": \"会员表里“会员”的具体定义、排除情况和对应关系无法确认。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"无法确认的定义、排除和对应关系，受访者声明无法确认\",\n        \"与focus_questions 2相关\",\n        \"属于对事实的陈述\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"具体怎么定义\"\n        },\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"要排除的情况\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    },\n    {\n      \"id\": \"B78A67F5-867E-003\",\n      \"statement\": \"上一期智能营销平台系统侧使用记录无法确认。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"无法确认的具体记录和统计，受访者声明无法确认\",\n        \"与focus_questions 3相关\",\n        \"属于对事实的陈述\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"具体记录和统计\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 2472,
+    "total_tokens": 6154
+  }
+}

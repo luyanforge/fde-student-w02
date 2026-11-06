@@ -1,0 +1,13 @@
+[
+  {
+    "phase": "extract",
+    "request": {
+      "path": "artifacts/w02/runs/RUN-89cace0290ad45749407416465765c09/step-001.request.json",
+      "sha256": "11f95e3d777547fcf54919412d82f34a0948137910b658d31c4614188260be75"
+    },
+    "response": {
+      "path": "artifacts/w02/runs/RUN-89cace0290ad45749407416465765c09/step-001.response.json",
+      "sha256": "c6462f1f0a466bf01cbaf732bcb01080f18a711f0fc1613e35e0019e5bb35f3e"
+    }
+  }
+]

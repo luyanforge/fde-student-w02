@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"全公司数据口径不是一个人说了算，应由相关角色共同确认。\",\n      \"kind\": \"opinion\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：林经理（ROLE-LIN）\",\n        \"时间：w02\",\n        \"场景：live 访谈\",\n        \"范围：全公司数据口径\",\n        \"效力：受访者个人判断，非已确认事实\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02744\",\n          \"quote\": \"全公司数据口径不是一个人说了算\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4350,
+    "completion_tokens": 538,
+    "total_tokens": 4888
+  }
+}

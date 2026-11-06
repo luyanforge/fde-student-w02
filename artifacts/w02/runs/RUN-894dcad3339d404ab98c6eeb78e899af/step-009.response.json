@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "```json\n{\n  \"claims\": [\n    {\n      \"id\": \"Q-0001\",\n      \"statement\": \"本次提问围绕会员运营中的回访名单筛选规则与效果判断口径：哪些角色负责维护，需要哪些前置条件和签批，技术、运营、门店是否一致，以及上期智能营销平台实际使用状态与结项结论\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"本批仅含访谈者提问，无受访者陈述\",\n        \"证据在后续访谈中核实\",\n        \"由客户确认\"\n      ],\n      \"evidence\": [],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}\n```"
+  },
+  "usage": {
+    "prompt_tokens": 3875,
+    "completion_tokens": 526,
+    "total_tokens": 4401
+  }
+}

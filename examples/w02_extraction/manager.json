@@ -1,0 +1,18 @@
+{
+  "contract_version": "w02-0.1.0-draft",
+  "scope_id": "fictional-library",
+  "origin": "fixture",
+  "meeting_id": "MEETING-MANAGER",
+  "week": 2,
+  "role_id": "ROLE-MANAGER",
+  "scenario_version": "library-fixture-1",
+  "state": "ended",
+  "purpose": "了解借阅和预约流程。",
+  "messages": [
+    {
+      "id": "MSG-00004",
+      "speaker": "assistant",
+      "content": "这份讨论仅用于虚构教学。我的理解是预约到书后保留两天，不过要核对前台的实际操作。"
+    }
+  ]
+}

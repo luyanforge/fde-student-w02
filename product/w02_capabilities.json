@@ -1,0 +1,45 @@
+{
+  "version": "w02-natural-0.1.0",
+  "base_product_version": "0.2.0-w1",
+  "contract_version": "w02-natural-0.1.0",
+  "entry": "tools/w02_knowledge.py",
+  "checker": {
+    "version": "w02-checker-0.2.0",
+    "entry": "tools/check_w02.py",
+    "scope": "公开结构预检；人工判读和行为复跑分别登记。"
+  },
+  "capabilities": [
+    {
+      "id": "W2-K01",
+      "name": "自然语言业务模型加载",
+      "scope": "读取学员核查后的业务模型说明，保留定义、条件、未知与依据；不要求本体 YAML。"
+    },
+    {
+      "id": "W2-K02",
+      "name": "客户知识回答",
+      "scope": "标准 Agent 的独立知识入口，使用当前说明解释或澄清，不读取 W1 业务样例或注册候选动作。"
+    },
+    {
+      "id": "W2-K03",
+      "name": "运行证据与前后对照",
+      "scope": "冻结实际输入、请求、公开响应和配置；支持未加载对照，语义判读仍为 needs_review。"
+    }
+  ],
+  "not_implemented": [
+    "青禾业务计算与数据连接",
+    "客户动作执行",
+    "本体检索或自动摘要",
+    "网页本体选择器"
+  ],
+  "extraction_contract_version": "w02-0.1.0-draft",
+  "extraction_workflow": {
+    "version": "w02-workflow-0.1.0",
+    "entrypoint": "tools/w02_workflow.py",
+    "skill": "templates/w02_workflow/skills/extract-business/SKILL.md",
+    "human_review": true,
+    "human_confirmed_write": true,
+    "resume_after_review": true,
+    "next_round": true,
+    "guide": "docs/w02_workflow/README.md"
+  }
+}

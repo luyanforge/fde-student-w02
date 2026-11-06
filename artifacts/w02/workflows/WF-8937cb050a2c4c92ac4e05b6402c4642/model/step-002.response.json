@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "材料已读取。四场访谈、W1 基线（11 条 GAP 对照表）、核查记录与提取配置都已就位。接下来调用提取程序，按已确认的 W2 配置实际提取候选。",
+    "tool_calls": [
+      {
+        "index": 0,
+        "id": "tool_D97Z7MEAq50Kk70ULTs4XMOv",
+        "type": "function",
+        "function": {
+          "name": "extract_candidates",
+          "arguments": "{}{}"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 11034,
+    "completion_tokens": 92,
+    "total_tokens": 11126
+  }
+}

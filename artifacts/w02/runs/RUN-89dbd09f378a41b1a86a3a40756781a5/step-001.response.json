@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"Q-001\",\n      \"statement\": \"本批仅含受访者陈述，无对应核查事实\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"本批仅含受访者陈述，无对应核查事实\"\n      ],\n      \"evidence\": [],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4090,
+    "completion_tokens": 246,
+    "total_tokens": 4336
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"1\",\"kind\":\"fact\",\"statement\":\"先弄清要核实的问题、数据范围和用途，各系统由谁维护、谁有导出权限等具体细节需后续确认。\",\"evidence_status\":\"reported\",\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02525\",\"quote\":\"先把要核实的问题说清楚\"}],\"conflict_ids\":[],\"qualifiers\":[\"受访者认为数据范围和用途需先说清，具体权限细节待确认\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"2\",\"kind\":\"question\",\"statement\":\"各系统数据维护与导出权限具体由谁负责，需进一步确认。\",\"evidence_status\":\"unknown\",\"evidence\":[],\"conflict_ids\":[],\"qualifiers\":[\"周老师明确无法确认权限细节，待确认\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"3\",\"kind\":\"question\",\"statement\":\"会员表里会员的具体定义与排除情况待确认。\",\"evidence_status\":\"unknown\",\"evidence\":[],\"conflict_ids\":[],\"qualifiers\":[\"周老师确认会员体系有付费与免费注册两类，但未给出详细定义\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3722,
+    "completion_tokens": 349,
+    "total_tokens": 4071
+  }
+}

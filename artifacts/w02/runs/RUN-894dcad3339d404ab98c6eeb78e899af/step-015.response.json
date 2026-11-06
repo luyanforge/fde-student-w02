@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"QINGHE-02904-ACTION-1\",\"statement\":\"活跃会员数80万并非核实过的口径，该数字当前仅用于在看，但缺少确认与依据。\",\"kind\":\"opinion\",\"evidence_status\":\"reported\",\"qualifiers\":[\"scope\":\"live\",\"role_id\":\"ROLE-SHEN\"],\"evidence\":[{\"meeting_id\":\"5aa0d411-3345-5aa3-851a-6977bc91a4ce\",\"message_id\":\"MSG-02904\",\"quote\":\"不是已经核实的口径\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3901,
+    "completion_tokens": 310,
+    "total_tokens": 4211
+  }
+}

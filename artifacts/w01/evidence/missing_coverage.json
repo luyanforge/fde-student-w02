@@ -1,0 +1,63 @@
+{
+  "product_version": "0.2.0-w1",
+  "runtime_revision": "w01-runtime-20260922",
+  "session_id": "72de8803-7ce2-4a30-b6c7-30d1802b0783",
+  "model_mode": "live",
+  "model_name": "k3-256k",
+  "prompt_sha256": "051286bc27083b1f3cd9201ebcd09030830ec3a06401197a0adaa0f1003fcddd",
+  "status": "incomplete",
+  "result": {
+    "status": "incomplete",
+    "summary": "按已确认时段比较 S03 老会员 2026-07-01至2026-08-01（不含结束日）与 2026-08-01至2026-09-01（不含结束日）的净消费，阈值为下降至少20%。工具返回 partial：S03 属于 missing_coverage_stores，未返回任何会员行与下降人群，因此无法确认是否存在下降≥20%的老会员；缺失覆盖应视为未知，不能计为零或推断无下降。",
+    "recommendations": [],
+    "evidence_ids": [
+      "CMP-8eb496ca71fc574d"
+    ],
+    "limitations": [
+      "S03 消费数据未覆盖，结论不能推广到该门店；未覆盖门店消费未知，不能按零处理。",
+      "compare_spending 未返回 rows 与 declining_members，无法形成可审核的召回对象。",
+      "当前为只读分析模式，无标签动作权限，不能宣称已发券或已执行召回。"
+    ]
+  },
+  "observations": [
+    {
+      "name": "compare_spending",
+      "result": {
+        "status": "partial",
+        "evidence_id": "CMP-8eb496ca71fc574d",
+        "dataset_version": "sample-1",
+        "metric_id": "sample.net_spend.v1",
+        "windows": {
+          "baseline": [
+            "2026-07-01",
+            "2026-08-01"
+          ],
+          "current": [
+            "2026-08-01",
+            "2026-09-01"
+          ],
+          "end_exclusive": true
+        },
+        "minimum_decline_pct": 20,
+        "rows": [],
+        "declining_members": [],
+        "missing_coverage_stores": [
+          "S03"
+        ],
+        "limitations": [
+          "未覆盖门店的消费未知，不能计为零。"
+        ],
+        "business_reference_date": "2026-09-01"
+      },
+      "call_id": "tool_J8ydEd1zseNmrz1xLAVNX4mv"
+    }
+  ],
+  "steps": 2,
+  "output_repairs": 0,
+  "usage": {
+    "prompt_tokens": 3142,
+    "completion_tokens": 635,
+    "total_tokens": 3777
+  },
+  "trace_id": "4b682dd22d999c502f22a9719ad85494"
+}

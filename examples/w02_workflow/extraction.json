@@ -1,0 +1,18 @@
+{
+  "version": "w02-extractor-0.1.0",
+  "scope_id": "fictional-library",
+  "sources": [
+    "examples/w02_extraction/front_desk.json",
+    "examples/w02_extraction/manager.json"
+  ],
+  "prompt": "templates/w02_extraction/extraction_prompt.txt",
+  "focus_questions": [
+    "一次借阅与读者、馆藏副本怎样关联？",
+    "前台与馆长对预约到书后的保留期限分别怎样说，保留哪些条件？",
+    "自动提醒是否可用？哪些信息仍未提供？"
+  ],
+  "batch_chars": 16000,
+  "max_batches": 24,
+  "reconcile_chars": 96000,
+  "profile": "compatible"
+}

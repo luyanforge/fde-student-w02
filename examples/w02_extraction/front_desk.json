@@ -1,0 +1,28 @@
+{
+  "contract_version": "w02-0.1.0-draft",
+  "scope_id": "fictional-library",
+  "origin": "fixture",
+  "meeting_id": "MEETING-FRONT",
+  "week": 2,
+  "role_id": "ROLE-FRONT",
+  "scenario_version": "library-fixture-1",
+  "state": "ended",
+  "purpose": "了解借阅和预约流程。",
+  "messages": [
+    {
+      "id": "MSG-00001",
+      "speaker": "assistant",
+      "content": "这里是虚构的青橡图书馆📚。每次借书形成一条借阅记录，对应一位读者和一本馆藏副本。读者凭读者证号借书。"
+    },
+    {
+      "id": "MSG-00002",
+      "speaker": "user",
+      "content": "预约图书可以保留多久？能自动提醒吗？"
+    },
+    {
+      "id": "MSG-00003",
+      "speaker": "assistant",
+      "content": "我们前台目前按到书后保留一天操作。自动提醒是否可用，我还不知道。"
+    }
+  ]
+}

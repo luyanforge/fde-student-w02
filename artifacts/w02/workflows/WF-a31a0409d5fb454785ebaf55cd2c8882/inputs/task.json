@@ -1,0 +1,9 @@
+{
+  "version": "w02-workflow-0.1.0",
+  "goal": "用 W2 四场访谈（老周/小林/陈姐/沈总）的证据逐条修订 W01 的 11 条 GAP：把每条主张分为现状事实、个人判断、待核实三类；标出三方互相指向导致的无人负责环节；确定本期交付边界（只承诺识别+建议）能否成立及其条件。",
+  "extraction_config": "customer/w02/extraction.json",
+  "skill": "customer/w02/skills/extract-business/SKILL.md",
+  "business_model": "docs/w02/business_model.md",
+  "notes": "docs/w02/interview_notes.md",
+  "max_steps": 24
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"Q-20260813-001\",\n      \"statement\": \"核查说明按四要素拟好后应如何检查内容、退回条件是什么，以及正式提交和签批由谁裁决\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"引用了ROLE-ZHOU在MSG-02663的陈述\",\n        \"待核计划：确认核查说明四要素的具体定义、退回条件和正式提交及签批的裁决权\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02663\",\n          \"quote\": \"核查说明按那四要素拟好先交给我看\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3720,
+    "completion_tokens": 653,
+    "total_tokens": 4373
+  }
+}

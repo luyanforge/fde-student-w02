@@ -1,0 +1,351 @@
+{
+  "contract_version": "w02-0.1.0-draft",
+  "artifact_id": "FACTS-RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a",
+  "revision": 1,
+  "scope_id": "qinghe",
+  "origin_run": {
+    "run_id": "RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a",
+    "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/run.json"
+  },
+  "sources": [
+    {
+      "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/0.json",
+        "sha256": "3601e68a5d56cb547842f9334fa7344da0bf304204c07b67d24acc0527f9b8d7"
+      }
+    },
+    {
+      "meeting_id": "aa9cc44b-243a-5f80-883f-d5e1cfc545b5",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/1.json",
+        "sha256": "b548d6f81f241b1f663e1adcc38c374294de345b0dd954169d4452d12800eb83"
+      }
+    },
+    {
+      "meeting_id": "b23e54b2-7ca8-53ff-8aca-066201c759eb",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/2.json",
+        "sha256": "8ff4fa00795972437c19d771ef8efeb8e97ef5e9991e7c3e4dac55590e011a97"
+      }
+    },
+    {
+      "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-a4685ca1b0e14c2e9bcb5fbebf91ba0a/snapshot/artifacts/w02/workflows/WF-e66e9c025b904013bf289761d35a9942/sources/3.json",
+        "sha256": "19bae280e1d3680c92235a34b53dfc92d741bbbdc9f629eac45bcaef07c9a576"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-001-0001",
+      "statement": "复购率连续四个季度下滑，但具体成文口径、分子分母定义及统计周期需项目组核实。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源：周老师（ROLE-ZHOU）访谈 MSG-02600 陈述；趋势可确认，详细规则待核"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02600",
+          "quote": "它连续四个季度在下滑"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-001-0002",
+      "statement": "120万为系统全量会员数，与沈总提的80万活跃会员非同一口径。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源：周老师（ROLE-ZHOU）访谈 MSG-02615 陈述；数字含义已明确"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02615",
+          "quote": "不是活跃会员口径"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-001-0003",
+      "statement": "技术核查由周老师安排，但签批流程、材料形式与出结论周期需看具体对象再定。",
+      "kind": "opinion",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源：周老师（ROLE-ZHOU）访谈 MSG-02615 陈述；个人判断加条件限定"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02615",
+          "quote": "这些我现在不作承诺"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-001-0004",
+      "statement": "安全要求、数据用途或责任未说清时，可先暂缓接入。",
+      "kind": "question",
+      "evidence_status": "unknown",
+      "qualifiers": [
+        "来源：周老师（ROLE-ZHOU）访谈 MSG-02600 陈述；条件性主张待核实"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02600",
+          "quote": "我可以要求先暂缓接入"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-001-0005",
+      "statement": "会员范围需与运营一起确认，具体对接人待明确。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源：林老师（ROLE-LIN）访谈 MSG-02663 陈述；流程描述加限定条件"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02663",
+          "quote": "会员范围我会和她一起确认"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-001-0006",
+      "statement": "正式提交和签批走哪套流程，周老师不掌握该口径。",
+      "kind": "question",
+      "evidence_status": "unknown",
+      "qualifiers": [
+        "来源：林老师（ROLE-LIN）访谈 MSG-02663 陈述；明确未决事项"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02663",
+          "quote": "我现在定不了"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-002-0007",
+      "statement": "上一期智能营销平台最后没人用，因为界面让操作多了三步。",
+      "kind": "fact",
+      "evidence_status": "conflicting",
+      "qualifiers": [
+        "受访者个人说法，未提供具体操作步骤或数据"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "aa9cc44b-243a-5f80-883f-d5e1cfc545b5",
+          "message_id": "MSG-02744",
+          "quote": "最后没人用"
+        }
+      ],
+      "conflict_ids": [
+        "CONFLICT-001"
+      ],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-002-0008",
+      "statement": "全公司数据口径不是林经理一个人能定的。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "受访者声明权限边界，不代表已核实的全局规则"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "aa9cc44b-243a-5f80-883f-d5e1cfc545b5",
+          "message_id": "MSG-02744",
+          "quote": "全公司数据口径"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-002-0009",
+      "statement": "陈经理负责大区门店会员活动的安排和跟进，并提到活动要求不清楚时反复沟通费力。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "受访者个人感受与职责描述"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b23e54b2-7ca8-53ff-8aca-066201c759eb",
+          "message_id": "MSG-02867",
+          "quote": "活动要求不清楚"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-003-0010",
+      "statement": "技术负责人表示未掌握结项凭据等核实状态，仅给出个人判断",
+      "kind": "fact",
+      "evidence_status": "conflicting",
+      "qualifiers": [
+        "来源沈总(ROLE-SHEN)，时间本周二"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+          "message_id": "MSG-02906",
+          "quote": "结项结论的凭据我不掌握"
+        }
+      ],
+      "conflict_ids": [
+        "CONFLICT-001"
+      ],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-003-0011",
+      "statement": "活跃会员数为当前参考值而非已核实口径",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源沈总，场景80万数据讨论时"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+          "message_id": "MSG-02904",
+          "quote": "不是已经核实的口径"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-003-0012",
+      "statement": "技术负责人个人判断供应商未交付好但非结项结论",
+      "kind": "opinion",
+      "evidence_status": "unknown",
+      "qualifiers": [
+        "来源沈总，时间本周二"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+          "message_id": "MSG-02904",
+          "quote": "个人看法还是供应商没交付好"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-003-0013",
+      "statement": "遇到要求不清楚时由运营核实",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源陈姐(ROLE-CHEN)，场景活动适用范围不明确时"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b23e54b2-7ca8-53ff-8aca-066201c759eb",
+          "message_id": "MSG-02869",
+          "quote": "我通常找运营核对"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-003-0014",
+      "statement": "会员范围最终由谁确认尚未明确",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "来源沈总，场景未定论讨论中"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+          "message_id": "MSG-02904",
+          "quote": "几方说法对不上"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CONFLICT-001",
+      "claim_ids": [
+        "CLM-002-0007",
+        "CLM-003-0010"
+      ],
+      "question": "智能营销平台上一期结项结论是什么？是否有正式报告或记录支持“没人用”的说法，以及原因是否如所述为操作复杂导致。",
+      "next_step": "需要项目组核实该平台的实际使用状态、未被使用的具体原因及证据；确认是否存在结项材料并获取其内容以验证相关说法。"
+    }
+  ]
+}

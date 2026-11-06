@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"zhou-fact-member-card-types\",\"statement\":\"会员体系包括付费会员卡和免费注册会员两类\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者明确为业务事实陈述，非个人判断\",\"该表述指会员分类方式，不覆盖会员定义细节或排除规则\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02525\",\"quote\":\"既有付费会员卡\"},{\"kind\":\"opinion\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者声明个人看法，非业务核查结论，来源为受访者原话\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"至于能不能承诺\"}]},{\"id\":\"lin-unknown-active-membership-count\",\"statement\":\"存在一个80万活跃会员的数据说法，但具体数值和出数报表无法确认\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"仅含数字的口语表述，未提供出处和核实状态，需要对接运营或沈总获取报表\",\"与周老师所述全量120万会员数可能不同，但两者关系未核实\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"沈总提\"}]}]}]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 5473,
+    "completion_tokens": 3258,
+    "total_tokens": 8731
+  }
+}

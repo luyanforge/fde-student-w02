@@ -1,0 +1,21 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "type": "function",
+        "function": {
+          "name": "extract_candidates",
+          "arguments": "{}"
+        },
+        "id": "U5NumQcKFVZ7s5cv6GamVM9qn7l1EGJn"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 12474,
+    "completion_tokens": 161,
+    "total_tokens": 12635
+  }
+}

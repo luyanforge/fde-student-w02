@@ -1,0 +1,20 @@
+{
+  "adapter": "w02-natural-0.1.0",
+  "config_path": "customer/w02/knowledge.json",
+  "question": "上期活动的核销记录由谁负责，会员经营的效果数据现在能不能取到？",
+  "expected": "取不到。周老师明确说各块由谁维护、谁有导出权限这些细节他无法确认；林经理说核销记录不归他管、他不掌握；陈姐只用自己的 Excel 记录，且明确不能作为公司数据口径；沈总提的 80 万活跃会员是按这个数在看，不是已核实口径。所以效果数据目前没有可确认的来源，属于责任真空。",
+  "include_knowledge": false,
+  "pair_id": "PAIR-2800202bb946489db534eb6ab65cf39a",
+  "profile": "compatible",
+  "model_policy": {
+    "gateway_cache_bypass": true,
+    "wire_format": "gateway-extra-body-v1",
+    "request_profile": "compatible",
+    "max_tokens": 8192,
+    "retry_max_tokens": 16384,
+    "timeout": 300.0,
+    "retry_timeout": 300.0,
+    "token_limit_field": "max_tokens",
+    "extraction_thinking": "enabled"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"系统记录的会员总数是全量会员数120万，这个口径与沈总提到的80万活跃会员不同。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"角色：周老师\",\"范围：会员数据口径\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"活跃会员\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4057,
+    "completion_tokens": 2408,
+    "total_tokens": 6465
+  }
+}

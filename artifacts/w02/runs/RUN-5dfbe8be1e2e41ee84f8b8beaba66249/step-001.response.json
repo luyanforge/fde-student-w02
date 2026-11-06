@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-02525-001\",\n      \"statement\": \"会员分为付费会员卡与免费注册会员，描述时需区分两类\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"周老师在 MSG-02525 中陈述会员分两类，但表示具体定义与排除情况无法确认\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"会员体系里既有付\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3918,
+    "completion_tokens": 1044,
+    "total_tokens": 4962
+  }
+}

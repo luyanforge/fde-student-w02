@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C01\",\"statement\":\"周老师所称的“会员数”是系统全量会员数，与沈总提的活跃会员不是同一口径。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者个人说法\",\"访谈时未核实\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"C02\",\"statement\":\"周老师表示他负责安排技术核查工作。\",\"kind\":\"opinion\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"周老师的岗位角色陈述\",\"访谈中未单独验证其权限范围\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"C03\",\"statement\":\"周老师表示他不在这次访谈里批准任何正式的会员经营相关数据权限。\",\"kind\":\"opinion\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者个人行动声明\",\"仅反映本次访谈中的行为边界，不代表公司制度\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"C04\",\"statement\":\"周老师认为会员经营的日常运营工作由名为“小林”的同事负责。\",\"kind\":\"opinion\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"受访者个人判断\",\"未核实该岗位名称及具体职责范围\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"C05\",\"statement\":\"周老师表示他无法确定会员经营数据核查说明应先交给谁检查格式再走正式提交流程。\",\"kind\":\"question\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者明确未掌握该流程口径，需后续确认\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"C06\",\"statement\":\"周老师表示他不清楚负责会员经营日常运营的“小林”的具体岗位名称是什么。\",\"kind\":\"opinion\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"受访者个人判断\",\"未核实该人员实际职务信息\"],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 9966,
+    "completion_tokens": 11688,
+    "total_tokens": 21654
+  }
+}

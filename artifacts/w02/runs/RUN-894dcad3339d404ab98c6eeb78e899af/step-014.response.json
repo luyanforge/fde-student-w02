@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"Q-0001\",\n      \"statement\": \"智能营销平台结项结论与活跃会员口径及预算签批\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\"本批仅含访谈者提问，无受访者陈述\"],\n      \"evidence\": [],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3762,
+    "completion_tokens": 1720,
+    "total_tokens": 5482
+  }
+}

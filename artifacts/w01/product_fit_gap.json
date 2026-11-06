@@ -1,0 +1,220 @@
+{
+  "contract_version": "w01-0.2.1",
+  "product_version": "0.2.0-w1",
+  "capability_matrix_version": "w1-capabilities-0.2.0",
+  "items": [
+    {
+      "id": "GAP-001",
+      "request": "按青禾内部口径计算复购率",
+      "category": "待判断",
+      "capability_ids": [],
+      "evidence_status": "unknown",
+      "evidence": [
+        {
+          "source": "访谈记录 W1-interview-3af826f0-a579-5433-b0aa-8e0f246e64a9",
+          "locator": "MSG-00834",
+          "note": "沈总表示复购率内部算法与其数值持有人均无法给出准数，需与相关同事核实。"
+        }
+      ],
+      "next_step": "请老周协调出复购率的成文口径（分子分母、统计周期、是否分渠道），据此判断属客户配置还是产品缺口；判断前不预设实现方式。"
+    },
+    {
+      "id": "GAP-002",
+      "request": "提供近四个季度复购率基线数值与出处",
+      "category": "待判断",
+      "capability_ids": [],
+      "evidence_status": "unknown",
+      "evidence": [
+        {
+          "source": "立项邮件 MAIL-W01-001",
+          "locator": "正文第 2 段“会员复购率已经连续四个季度下滑”",
+          "note": "客户立场：下滑结论存在，但未给出数值与报表出处。"
+        },
+        {
+          "source": "访谈记录 W1-interview-3af826f0-a579-5433-b0aa-8e0f246e64a9",
+          "locator": "MSG-00832",
+          "note": "沈总明确“具体是哪份报表、最近四个季度处于什么水平，我现在给不了准数”。"
+        }
+      ],
+      "next_step": "向老周索取四个季度的报表原件与统计口径；若无成文报表，改用小林可导出的原始会员与订单数据重建基线，并注明重建口径。"
+    },
+    {
+      "id": "GAP-003",
+      "request": "从会员中识别需要重点经营的下降人群",
+      "category": "产品已有",
+      "capability_ids": [
+        "CAP-003",
+        "CAP-004",
+        "CAP-006"
+      ],
+      "evidence_status": "reported",
+      "evidence": [
+        {
+          "source": "立项邮件 MAIL-W01-001",
+          "locator": "正文第 2 段“希望助手能帮运营识别哪些人需要重点经营”",
+          "note": "客户诉求原文，指向识别阶段而非执行阶段。"
+        },
+        {
+          "source": "产品能力矩阵 product/capabilities.json",
+          "locator": "CAP-003、CAP-004",
+          "note": "业务工具含 compare_spending、member_history；样例数据支持净消费比较与下降人群计算。"
+        }
+      ],
+      "next_step": "用客户一段历史数据复跑，确认其会员与订单字段能否映射到标准语义（净消费、老会员、下降 20%）；映射不上的字段单独列出，不擅自改口径。"
+    },
+    {
+      "id": "GAP-004",
+      "request": "为每位会员给出下降情况与建议理由",
+      "category": "产品已有",
+      "capability_ids": [
+        "CAP-003",
+        "CAP-004"
+      ],
+      "evidence_status": "reported",
+      "evidence": [
+        {
+          "source": "立项邮件 MAIL-W01-001",
+          "locator": "正文第 2 段“最好能直接给小林一些运营建议，别又让她多整理一套表”",
+          "note": "客户要求结果可直接使用，排斥再增加额外表格。"
+        },
+        {
+          "source": "产品 API 文档 product/API.md",
+          "locator": "“订单笔数与退款说明”节",
+          "note": "完成分析时程序生成摘要与每位会员 rationale，模型生成 suggestion；建议的业务价值仍需人工判断。"
+        }
+      ],
+      "next_step": "跑样例确认建议与依据字段可被小林直接使用，同时确认她判断“可用”的标准，作为本期验收依据。"
+    },
+    {
+      "id": "GAP-005",
+      "request": "按入会年份或消费频次对会员老化做分层",
+      "category": "待判断",
+      "capability_ids": [],
+      "evidence_status": "reported",
+      "evidence": [
+        {
+          "source": "立项邮件 MAIL-W01-001",
+          "locator": "正文第 2 段“我的判断是会员老化比较明显”",
+          "note": "客户自述为判断，非数据分析结论。"
+        },
+        {
+          "source": "访谈记录 W1-interview-3af826f0-a579-5433-b0aa-8e0f246e64a9",
+          "locator": "MSG-00834",
+          "note": "沈总明确“会员老化是我的判断，数据能不能支持，也还要核实”。"
+        }
+      ],
+      "next_step": "先向小林确认是否真需要“老化”分层及其口径；确认后再判断属客户配置还是产品缺口，暂不按现有能力承诺。"
+    },
+    {
+      "id": "GAP-006",
+      "request": "在 80 万活跃会员规模下运行",
+      "category": "待判断",
+      "capability_ids": [],
+      "evidence_status": "unknown",
+      "evidence": [
+        {
+          "source": "立项邮件 MAIL-W01-001",
+          "locator": "正文第 2 段“我们有 80 万活跃会员”",
+          "note": "客户自述规模，未说明活跃定义与取数系统。"
+        },
+        {
+          "source": "项目协作说明 BRIEF-W01-001",
+          "locator": "第 2 段",
+          "note": "产品尚未接入青禾数据与业务系统，本周无完整会员明细。"
+        }
+      ],
+      "next_step": "向老周确认“活跃”定义、数据规模与所在系统；取得样本后评估性能与成本，明确不以样例外推客户规模。"
+    },
+    {
+      "id": "GAP-007",
+      "request": "接入客户会员、订单、门店数据",
+      "category": "系统适配",
+      "capability_ids": [
+        "CAP-004"
+      ],
+      "evidence_status": "unknown",
+      "evidence": [
+        {
+          "source": "项目协作说明 BRIEF-W01-001",
+          "locator": "第 2 段",
+          "note": "客户数据与业务系统均未接入，缺少已定义字段。"
+        },
+        {
+          "source": "产品 API 文档 product/API.md",
+          "locator": "“数据”节",
+          "note": "青禾原始数据需另行清洗、映射并导入另一实例；样例 SQL 结果不等同客户指标。"
+        }
+      ],
+      "next_step": "老周提供系统清单与字段说明后，按课程节奏完成清洗、字段映射与覆盖区间校验；覆盖不全时返回未完成，不编造名单。"
+    },
+    {
+      "id": "GAP-008",
+      "request": "把名单或建议写入现有会员系统、打标签",
+      "category": "暂不承诺",
+      "capability_ids": [
+        "CAP-007"
+      ],
+      "evidence_status": "reported",
+      "evidence": [
+        {
+          "source": "访谈记录 W1-interview-3af826f0-a579-5433-b0aa-8e0f246e64a9",
+          "locator": "MSG-00846",
+          "note": "双方确认首期只做识别加建议，不碰标签执行、不写回系统。"
+        },
+        {
+          "source": "产品能力矩阵 product/capabilities.json",
+          "locator": "CAP-007",
+          "note": "仅提供样例有状态 HTTP 标签 API；青禾发券与标签连接器属后续开发。"
+        }
+      ],
+      "next_step": "已与沈总确认本期移出范围；如后续需要，另议接口、权限、确认机制与错发责任，不计入本期范围与承诺。"
+    },
+    {
+      "id": "GAP-009",
+      "request": "建议在执行前经人工确认",
+      "category": "产品已有",
+      "capability_ids": [
+        "CAP-002"
+      ],
+      "evidence_status": "reported",
+      "evidence": [
+        {
+          "source": "产品 API 文档 product/API.md",
+          "locator": "“产品交互入口”节",
+          "note": "确认绑定草案与会话内容哈希；拒绝后不调用模型、不写标签。"
+        }
+      ],
+      "next_step": "与小林确认确认点由谁承担、确认记录如何留存；客户侧若无确认流程，需在方案中明确补上。"
+    },
+    {
+      "id": "GAP-010",
+      "request": "三个月内复购率止跌回升",
+      "category": "暂不承诺",
+      "capability_ids": [],
+      "evidence_status": "reported",
+      "evidence": [
+        {
+          "source": "访谈记录 W1-interview-3af826f0-a579-5433-b0aa-8e0f246e64a9",
+          "locator": "MSG-00832、MSG-00838、MSG-00846",
+          "note": "三次表述一致：三个月是个人期望，不是期限，也不是验收标准。"
+        }
+      ],
+      "next_step": "客户三次确认为个人期望，非期限、非验收标准；本期改为按阶段交付可见产出，复购率变化不计入本期验收。"
+    },
+    {
+      "id": "GAP-011",
+      "request": "门店侧在一线执行中配合",
+      "category": "待判断",
+      "capability_ids": [],
+      "evidence_status": "unknown",
+      "evidence": [
+        {
+          "source": "项目协作说明 BRIEF-W01-001",
+          "locator": "角色表“陈姐，大区门店店长”",
+          "note": "仅确定为门店侧业务协作角色；W1 只开放沈总，未取得其意见。"
+        }
+      ],
+      "next_step": "W2 开放陈姐角色后访谈，确认门店在“名单到触达”链路中的实际作用；当前仅有角色定位，不据此判断能力。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"Q-02600-01\",\"statement\":\"会员数120万指的是系统全量会员数，该数字的出数报表、截止日期、是否含注销/黑名单/测试账号等前置条件未确认。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"该数字仅作为受访者所述，未提供报表与截止日期等出数条件。\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"系统全量会员数\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"Q-02600-02\",\"statement\":\"活跃会员的定义、出数报表与核实状态均无法确认，沈总提出过“80万活跃会员”但非受访者本人数据。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"活跃的定义和出数报表来源未确认。\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"系统里怎么定义\"},{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"沈总提的\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"Q-02600-03\",\"statement\":\"付费会员卡和免费注册会员为两类会员，描述时应分开。\",\"kind\":\"opinion\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"受访者个人判断，非可核对业务规则。\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"描述会员时要分开\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}},{\"id\":\"Q-02600-04\",\"statement\":\"算复购率时合并还是分开属于业务口径，不在技术核查范围。\",\"kind\":\"opinion\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"技术范围不包含复购率口径决策。\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02600\",\"quote\":\"不该由我定\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3672,
+    "completion_tokens": 1945,
+    "total_tokens": 5617
+  }
+}

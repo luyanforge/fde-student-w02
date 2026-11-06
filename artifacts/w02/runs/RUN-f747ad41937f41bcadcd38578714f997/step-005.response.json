@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"核实会员数时，会员范围的确认需由周老师与运营共同确认。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"周老师个人工作记录，仅覆盖会员范围确认流程，不覆盖会员口径或签批环节。\",\n        \"技术核查由周老师安排，结果未出结论。\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02615\",\n          \"quote\": \"我和运营一起确认会员范围\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4036,
+    "completion_tokens": 1196,
+    "total_tokens": 5232
+  }
+}

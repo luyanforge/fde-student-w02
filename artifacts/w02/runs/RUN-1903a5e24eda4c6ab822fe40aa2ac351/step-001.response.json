@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"Q-001\", \"statement\": \"本批仅含访谈者提问，无受访者陈述，无法据此确认业务事实。\", \"kind\": \"question\", \"evidence_status\": \"unknown\", \"qualifiers\": [\"角色：周老师\", \"时间：2025-11-09 17:22\", \"范围：本批转录为访谈者提问，无受访者回答\"], \"evidence\": [{\"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\", \"message_id\": \"MSG-02525\", \"quote\": \"无法确认\"}], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4556,
+    "completion_tokens": 621,
+    "total_tokens": 5177
+  }
+}

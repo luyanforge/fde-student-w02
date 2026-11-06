@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"ZHOU-CONFIRM-ACTIVE-MEMBERSHIP-DEFINITION-001\", \"statement\": \"ZHOU 表示，沈总提的“80 万活跃会员”在系统中的定义与出数来源他无法确认。\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"ROLE-ZHOU 在 qinghe live 访谈中针对 focus_questions 中会员口径与数据权限问题所作的陈述，其原话含无法确认与不作承诺的限定；他未给出活跃会员的定义与来源。\"], \"evidence\": [{\"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\", \"message_id\": \"MSG-02600\", \"quote\": \"沈总提的\"}], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3766,
+    "completion_tokens": 1523,
+    "total_tokens": 5289
+  }
+}

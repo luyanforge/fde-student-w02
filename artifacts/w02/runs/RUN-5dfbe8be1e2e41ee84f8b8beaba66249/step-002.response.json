@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"Q-000001\",\"statement\":\"本期要核实的数据范围与口径：会员、订单、门店三张表，近12个月；用途是离线分析，用于识别下降人群与排期数据口径对齐，不写入客户系统。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含访谈者提问，无受访者陈述\",\"问题主题：本期要核实的数据范围与口径\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3873,
+    "completion_tokens": 241,
+    "total_tokens": 4114
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"C-02614-01\", \"statement\": \"访谈者要求明确会员经营数据接入安全、用途与责任的具体硬要求，以及数据使用范围的边界定义。\", \"kind\": \"question\", \"evidence_status\": \"unknown\", \"qualifiers\": [\"本批仅含访谈者提问，无受访者陈述\", \"访谈者向受访者确认需明确数据接入条件与范围\"], \"evidence\": [{\"quote\": \"有哪些硬要求\", \"message_id\": \"MSG-02614\", \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\"}], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3736,
+    "completion_tokens": 2187,
+    "total_tokens": 5923
+  }
+}

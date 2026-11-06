@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"现在做会员优惠券等活动是手工维护一份 Excel 来推进\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"这是 LIN 描述的当前做法，说明绕开上期平台并手工维护 Excel 来执行会员优惠券等活动\",\n        \"操作顺序可核实：先看任务反馈，再明确面向哪些会员、准备做什么，然后确认线上或门店执行，执行中记进度和问题，结束后整理反馈和待核实效果\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02854\",\n          \"quote\": \"手工维护一份\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3948,
+    "completion_tokens": 737,
+    "total_tokens": 4685
+  }
+}

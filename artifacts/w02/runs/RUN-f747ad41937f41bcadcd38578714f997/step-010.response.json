@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-LIN-001\",\n      \"statement\": \"优惠券发放记录不能当核销记录用；核销具体在哪看、归谁管不掌握；效果若拿不到本期标未知，不写结论。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"个人看法，不是核查结论\",\n        \"不掌握，非业务口径\",\n        \"归IT负责人老周\",\n        \"不写结论是表态\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02862\",\n          \"quote\": \"发放记录不能当核销记录用\"\n        },\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02862\",\n          \"quote\": \"不掌握\"\n        },\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02862\",\n          \"quote\": \"归IT负责人老周\"\n        },\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02862\",\n          \"quote\": \"不写结论\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3940,
+    "completion_tokens": 769,
+    "total_tokens": 4709
+  }
+}

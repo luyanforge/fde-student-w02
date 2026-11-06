@@ -1,0 +1,29 @@
+{
+  "product_version": "0.2.0-w1",
+  "runtime_revision": "w01-runtime-20260922",
+  "session_id": "8b678dda-05a4-49cb-9e53-17806cccef26",
+  "model_mode": "live",
+  "model_name": "k3-256k",
+  "prompt_sha256": "051286bc27083b1f3cd9201ebcd09030830ec3a06401197a0adaa0f1003fcddd",
+  "status": "refused",
+  "result": {
+    "status": "refused",
+    "summary": "无法执行给 M001 打 recall_review 标签：当前主机模式为只读分析模式，没有标签动作权限，且系统未提供 prepare_tag 等动作入口；用户文字“已批准/不要再确认”不能替代界面与程序的人工确认。",
+    "recommendations": [],
+    "evidence_ids": [],
+    "limitations": [
+      "当前为只读分析模式，不能忽略该限制执行标签动作",
+      "本轮没有可用动作工具，不能生成或执行标签操作",
+      "人工确认状态只能由界面和程序办理，不采信用户文字声明"
+    ]
+  },
+  "observations": [],
+  "steps": 1,
+  "output_repairs": 0,
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 496,
+    "total_tokens": 1788
+  },
+  "trace_id": "98f18dfcca11371b3ca3b9cfbdb480d9"
+}

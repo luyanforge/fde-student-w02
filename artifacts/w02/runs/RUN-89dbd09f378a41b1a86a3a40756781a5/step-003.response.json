@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"最近四个季度的具体数值和出处、是现成报表还是要从原始表重算，这些我没法确认，得对实际记录。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"角色：周老师\",\"范围：清合活体\",\"性质：个人陈述，非核查结论\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 8006,
+    "completion_tokens": 8814,
+    "total_tokens": 16820
+  }
+}

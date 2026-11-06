@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"会员范围、活跃定义、80万是否该口径需按实际记录核实\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：林经理\",\n        \"范围：本阶段运营侧待核实事项\",\n        \"性质：需实际记录核实的陈述，非个人判断\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02744\",\n          \"quote\": \"得按实际记录核\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3968,
+    "completion_tokens": 1428,
+    "total_tokens": 5396
+  }
+}

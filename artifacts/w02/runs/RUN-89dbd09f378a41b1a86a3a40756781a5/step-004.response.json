@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"本批提问要核实会员、订单、门店数据的维护与授权、技术核查前置条件与周期、120万会员数口径\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含访谈者提问，无受访者陈述\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3973,
+    "completion_tokens": 1249,
+    "total_tokens": 5222
+  }
+}

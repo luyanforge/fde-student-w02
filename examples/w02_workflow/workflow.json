@@ -1,0 +1,9 @@
+{
+  "version": "w02-workflow-0.1.0",
+  "goal": "补充借阅与读者、馆藏副本的关系；保留两位角色关于预约到书保留期的说法与条件，并核查自动提醒的未知。",
+  "extraction_config": "examples/w02_workflow/extraction.json",
+  "skill": "templates/w02_workflow/skills/extract-business/SKILL.md",
+  "business_model": "docs/w02/business_model.md",
+  "notes": "docs/w02/interview_notes.md",
+  "max_steps": 24
+}

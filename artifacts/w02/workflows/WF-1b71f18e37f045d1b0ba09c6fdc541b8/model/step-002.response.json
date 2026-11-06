@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "材料已读取。现有认识是 W1 基线（11 条 GAP 对照表 + 7 项未知），本轮目标是用四场访谈证据逐条修订。现在调用提取。",
+    "tool_calls": [
+      {
+        "index": 0,
+        "id": "tool_ibi0RIwn94sjbtwUGNFXFjTF",
+        "type": "function",
+        "function": {
+          "name": "extract_candidates",
+          "arguments": "{}{}"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 11032,
+    "completion_tokens": 85,
+    "total_tokens": 11117
+  }
+}

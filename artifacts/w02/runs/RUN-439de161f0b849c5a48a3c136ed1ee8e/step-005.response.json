@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"120 万是系统全量会员数，不是活跃会员口径。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"角色：周老师。本条是受访者对会员数口径的事实陈述，不含判断或目标。\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02615\",\"quote\":\"全量会员\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4418,
+    "completion_tokens": 485,
+    "total_tokens": 4903
+  }
+}

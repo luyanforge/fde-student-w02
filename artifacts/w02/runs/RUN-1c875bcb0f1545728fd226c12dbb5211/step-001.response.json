@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"CL-01\",\n      \"statement\": \"周老师在描述会员时明确说明，会员体系里既有付费会员卡，也有免费注册会员，描述会员时这两类要分清楚。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：周老师（技术负责人），时间：第2周访谈，范围：清河项目，描述会员时的口径提示\",\n        \"属于可核查事实陈述，非个人判断或目标\",\n        \"针对第三个问题中会员定义的澄清，用于理解后续会员口径问题\",\n        \"不涉及方案或结论\",\n        \"证据来源：第2周访谈 MSG-02525\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02525\",\n          \"quote\": \"免费注册会员\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3744,
+    "completion_tokens": 608,
+    "total_tokens": 4352
+  }
+}

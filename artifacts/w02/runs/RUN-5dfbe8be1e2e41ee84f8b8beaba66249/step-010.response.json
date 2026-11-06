@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"LIN核销归属\",\"statement\":\"受访者表示核销记录的具体查看位置与归口管理人不掌握，无法给出准确说法，建议系统问题找IT负责人核实。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"角色：LIN\",\"时间：第2周访谈\",\"类型：个人说法\",\"效力：非公司口径\",\"来源：现场回答\",\"未核实项\"],\"evidence\":[{\"meeting_id\":\"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\"message_id\":\"MSG-02862\",\"quote\":\"核销具体在哪看\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3890,
+    "completion_tokens": 1851,
+    "total_tokens": 5741
+  }
+}

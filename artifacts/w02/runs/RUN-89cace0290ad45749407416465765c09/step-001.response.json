@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"会员定义的范围和边界（含排除项、手机号与会员卡关系）由周老师确认，目前未明确，待核：向周老师确认会员表“会员”具体怎么定义、有没有注销黑名单测试账号、一个手机号会不会对应多张会员卡\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"角色：周老师\",\"周老师说会员表里“会员”具体怎么定义、有没有注销、黑名单、内部测试账号这类要排除的情况，以及一个手机号会不会对应多张会员卡，这些无法确认\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02525\",\"quote\":\"会员表里会员\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4031,
+    "completion_tokens": 666,
+    "total_tokens": 4697
+  }
+}

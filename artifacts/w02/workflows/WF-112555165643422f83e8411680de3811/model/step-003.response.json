@@ -1,0 +1,22 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "提取工具返回了 `JSON_INVALID` 错误，先重试一次以区分偶发问题和配置问题。",
+    "tool_calls": [
+      {
+        "index": 0,
+        "id": "tool_fJAap0jqKaHBI1L2MO8RTz2z",
+        "type": "function",
+        "function": {
+          "name": "extract_candidates",
+          "arguments": "{}{}"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 8685,
+    "completion_tokens": 81,
+    "total_tokens": 8766
+  }
+}

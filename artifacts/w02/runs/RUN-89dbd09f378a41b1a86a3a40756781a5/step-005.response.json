@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"客户侧的数据接入条件与数据范围用途的核实标准已明确：安全要求必须逐项核实实际用途和责任，用途和责任要写到能逐项核对的程度，比先给清单有用，核查结论需看实际对象与条件再定。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"角色：周老师（技术核查）\",\"范围：数据接入条件与核实标准\",\"性质：受访者明确陈述的接入条件与数据范围用途核实标准\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02615\",\"quote\":\"数据范围\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4158,
+    "completion_tokens": 1241,
+    "total_tokens": 5399
+  }
+}

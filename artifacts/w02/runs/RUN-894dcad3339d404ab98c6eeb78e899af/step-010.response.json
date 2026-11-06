@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"qinghe-unknown-verify-owner\",\"statement\":\"优惠券核销的实际查看位置与管理责任归属是否明确，以及效果数据的可获取性——受访者对核销环节的具体归属不掌握，推荐由 IT 负责人老周核实，但本人不确认效果数据当前能否取得。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含受访者声明，无多角色对比\"], \"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 7650,
+    "completion_tokens": 9846,
+    "total_tokens": 17496
+  }
+}

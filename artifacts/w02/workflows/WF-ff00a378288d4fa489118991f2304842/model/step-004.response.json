@@ -1,0 +1,21 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "type": "function",
+        "function": {
+          "name": "request_review",
+          "arguments": "{\"claim_ids\":[\"CLM-001-0001\", \"CLM-002-0002\", \"CLM-003-0003\"],\"question\":\"请核查这三条候选是否足以支撑本轮修订W01的11条GAP；不足处请说明哪些GAP还缺哪些材料或澄清，我继续补材料。\"}"
+        },
+        "id": "Nh3WxrWQzv0uV9QIB3bnHgAtqd7O05Sh"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 20342,
+    "completion_tokens": 220,
+    "total_tokens": 20562
+  }
+}

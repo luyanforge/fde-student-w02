@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"周老师声明，对于正式提交和签批走哪套流程，我现在定不了，也不掌握这个口径，本次访谈也不批具体数据权限。\",\"kind\":\"fact\",\"evidence_status\":\"reported\",\"qualifiers\":[\"周老师的声明\",\"承认无法决定和掌握口径\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02663\",\"quote\":\"我现在定不了\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4217,
+    "completion_tokens": 1044,
+    "total_tokens": 5261
+  }
+}

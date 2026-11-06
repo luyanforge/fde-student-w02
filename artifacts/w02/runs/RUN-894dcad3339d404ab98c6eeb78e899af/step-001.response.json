@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"claim-b78a67f5-2\",\"statement\":\"核实问题、数据范围与用途未对齐时，周老师仅确认会员体系有付费卡与免费注册会员两类，其余定义、排除情形、手机号与会员卡关系及系统使用记录等，均待核实。\",\"kind\":\"question\",\"evidence_status\":\"reported\",\"qualifiers\":[\"核实问题待明确\",\"待核实范围\",\"待核实主体\",\"待核责任归属\",\"待核时间窗口\"],\"evidence\":[{\"meeting_id\":\"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\"message_id\":\"MSG-02525\",\"quote\":\"描述会员时这两类要分清楚\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3853,
+    "completion_tokens": 400,
+    "total_tokens": 4253
+  }
+}

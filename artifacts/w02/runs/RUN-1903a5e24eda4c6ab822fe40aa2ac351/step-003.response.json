@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"120万会员与活跃会员是不同口径，会员范围由周老师与运营一起确认，待确认后再明确剔除责任\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"时间：第2周访谈当时\",\n        \"角色：周老师（技术）与运营（小林）\",\n        \"待核实：剔除由谁负责需等范围确认后明确\",\n        \"范围：系统全量会员数口径\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02615\",\n          \"quote\": \"120万是系统全量会员数，不是活跃会员口径。\"\n        },\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02615\",\n          \"quote\": \"一起确认\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4411,
+    "completion_tokens": 1062,
+    "total_tokens": 5473
+  }
+}

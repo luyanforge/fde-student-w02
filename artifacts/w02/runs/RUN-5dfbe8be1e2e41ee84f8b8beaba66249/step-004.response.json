@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"Q-2026-01-18-0002-0001\",\"statement\":\"会员、门店数据分别由谁维护、由谁授权导出，取数前置条件与签批环节是什么\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"对应聚焦问题1\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3801,
+    "completion_tokens": 300,
+    "total_tokens": 4101
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"qinghe-ROLE-LIN-003\", \"statement\": \"会员券的活动数据由会员优惠券的记录\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"scope_id:qinghe\", \"origin:live\"], \"evidence\": [{\"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\", \"message_id\": \"MSG-02854\", \"quote\": \"会员优惠券\"}], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 623,
+    "total_tokens": 4456
+  }
+}

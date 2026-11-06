@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\": [{\"id\": \"MSG-02615\", \"statement\": \"会员数120万是系统全量会员数，不是活跃会员口径。核实会员数时，你先跟我说明核查对象和用途，我和运营一起确认会员范围，再核对系统统计的范围、时间和说明。剔除由谁负责，也得等范围确认后再定。\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"系统全量会员数，不是活跃会员口径\", \"核实会员数时，先说明核查对象和用途，再确认会员范围\", \"剔除由谁负责，得等范围确认后再定\"], \"evidence\": [{\"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\", \"message_id\": \"MSG-02615\", \"quote\": \"不是活跃会员口径\"}], \"conflict_ids\": [], \"review\": {\"status\": \"pending\", \"note\": \"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 7842,
+    "completion_tokens": 9112,
+    "total_tokens": 16954
+  }
+}

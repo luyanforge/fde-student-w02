@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [],\n  \"note\": \"当前消息只有沈总对核查用途、范围与四条待核实问题的说明，缺少对问题的实际回答或判断，没有可引用的证据，本批不建候选。等下一批拿到受访者原话再处理。\"\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3637,
+    "completion_tokens": 232,
+    "total_tokens": 3869
+  }
+}

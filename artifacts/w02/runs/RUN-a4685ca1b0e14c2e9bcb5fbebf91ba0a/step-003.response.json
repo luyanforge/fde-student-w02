@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{ \"claims\": [ { \"id\": \"shen-audit\", \"statement\": \"技术负责人表示未掌握结项凭据等核实状态，仅给出个人判断\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"来源沈总(ROLE-SHEN)，时间本周二\"], \"evidence\": [ { \"meeting_id\": \"5aa0d411-3345-5aa3-851a-6977bc91a4ce\", \"message_id\": \"MSG-02906\", \"quote\": \"结项结论的凭据我不掌握\" } ], \"conflict_ids\": [], \"review\": { \"status\": \"pending\", \"note\": \"\" } }, { \"id\": \"shen-active\", \"statement\": \"活跃会员数为当前参考值而非已核实口径\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"来源沈总，场景80万数据讨论时\"], \"evidence\": [ { \"meeting_id\": \"5aa0d411-3345-5aa3-851a-6977bc91a4ce\", \"message_id\": \"MSG-02904\", \"quote\": \"不是已经核实的口径\" } ], \"conflict_ids\": [], \"review\": { \"status\": \"pending\", \"note\": \"\" } }, { \"id\": \"shen-opinion-supplier\", \"statement\": \"技术负责人个人判断供应商未交付好但非结项结论\", \"kind\": \"opinion\", \"evidence_status\": \"unknown\", \"qualifiers\": [\"来源沈总，时间本周二\"], \"evidence\": [ { \"meeting_id\": \"5aa0d411-3345-5aa3-851a-6977bc91a4ce\", \"message_id\": \"MSG-02904\", \"quote\": \"个人看法还是供应商没交付好\" } ], \"conflict_ids\": [], \"review\": { \"status\": \"pending\", \"note\": \"\" } }, { \"id\": \"chen-unclear-role\", \"statement\": \"遇到要求不清楚时由运营核实\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"来源陈姐(ROLE-CHEN)，场景活动适用范围不明确时\"], \"evidence\": [ { \"meeting_id\": \"b23e54b2-7ca8-53ff-8aca-066201c759eb\", \"message_id\": \"MSG-02869\", \"quote\": \"我通常找运营核对\" } ], \"conflict_ids\": [], \"review\": { \"status\": \"pending\", \"note\": \"\" } }, { \"id\": \"shen-dispute\", \"statement\": \"会员范围最终由谁确认尚未明确\", \"kind\": \"fact\", \"evidence_status\": \"reported\", \"qualifiers\": [\"来源沈总，场景未定论讨论中\"], \"evidence\": [ { \"meeting_id\": \"5aa0d411-3345-5aa3-851a-6977bc91a4ce\", \"message_id\": \"MSG-02904\", \"quote\": \"几方说法对不上\" } ], \"conflict_ids\": [], \"review\": { \"status\": \"pending\", \"note\": \"\" } } ]}"
+  },
+  "usage": {
+    "prompt_tokens": 4277,
+    "completion_tokens": 4794,
+    "total_tokens": 9071
+  }
+}

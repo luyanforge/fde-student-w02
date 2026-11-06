@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"LIN个人不掌握核销具体在哪个系统看、归谁管，只知发放记录不能当作核销记录，效果因核销未明可标未知。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：LIN\",\n        \"时间：w02-06\",\n        \"效力边界：个人工作记录，非公司口径；核销的查看位置和归口角色需由IT负责人老周核实\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\n          \"message_id\": \"MSG-02862\",\n          \"quote\": \"不掌握\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4062,
+    "completion_tokens": 384,
+    "total_tokens": 4446
+  }
+}

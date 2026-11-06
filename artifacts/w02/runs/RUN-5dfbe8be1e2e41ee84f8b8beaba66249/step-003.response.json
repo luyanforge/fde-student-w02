@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"claim-001\",\n      \"statement\": \"周老师表示技术核查由其安排，接入条件可提出，但效果口径不替业务确认。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"周老师可以安排技术核查并提出接入条件\",\n        \"不承诺效果口径\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02600\",\n          \"quote\": \"技术核查我可以安排\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3831,
+    "completion_tokens": 977,
+    "total_tokens": 4808
+  }
+}

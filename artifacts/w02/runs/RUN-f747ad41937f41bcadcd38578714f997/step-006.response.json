@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"核查流程的前置条件是先提供核查对象和用途，周老师再与运营核对范围；核查说明拟定后周老师负责检查，正式提交和签批流程周老师不掌握。\",\n      \"kind\": \"fact\",\n      \"evidence_status\": \"reported\",\n      \"qualifiers\": [\n        \"角色：周老师\",\n        \"范围：本周（2026-01-01至2026-01-07）\",\n        \"限定：周老师说明核查流程，但签批流程未确认\"\n      ],\n      \"evidence\": [\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02663\",\n          \"quote\": \"先跟我说核查对象和用途，我再跟她核对系统统计用的范围\"\n        },\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02663\",\n          \"quote\": \"核查说明按那四要素拟好先交给我看，我拿到后先检查它能回答什么、还缺什么\"\n        },\n        {\n          \"meeting_id\": \"b78a67f5-b5f4-5966-867e-7f754fbf8e2a\",\n          \"message_id\": \"MSG-02663\",\n          \"quote\": \"正式提交和签批走哪套，我现在定不了，也不掌握这个口径\"\n        }\n      ],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3835,
+    "completion_tokens": 725,
+    "total_tokens": 4560
+  }
+}

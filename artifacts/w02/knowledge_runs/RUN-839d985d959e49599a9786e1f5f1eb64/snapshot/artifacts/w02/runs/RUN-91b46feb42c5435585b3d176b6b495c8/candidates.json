@@ -1,0 +1,110 @@
+{
+  "contract_version": "w02-0.1.0-draft",
+  "artifact_id": "FACTS-RUN-91b46feb42c5435585b3d176b6b495c8",
+  "revision": 1,
+  "scope_id": "qinghe",
+  "origin_run": {
+    "run_id": "RUN-91b46feb42c5435585b3d176b6b495c8",
+    "path": "artifacts/w02/runs/RUN-91b46feb42c5435585b3d176b6b495c8/run.json"
+  },
+  "sources": [
+    {
+      "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-91b46feb42c5435585b3d176b6b495c8/snapshot/artifacts/w02/workflows/WF-ff00a378288d4fa489118991f2304842/sources/0.json",
+        "sha256": "3601e68a5d56cb547842f9334fa7344da0bf304204c07b67d24acc0527f9b8d7"
+      }
+    },
+    {
+      "meeting_id": "aa9cc44b-243a-5f80-883f-d5e1cfc545b5",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-91b46feb42c5435585b3d176b6b495c8/snapshot/artifacts/w02/workflows/WF-ff00a378288d4fa489118991f2304842/sources/1.json",
+        "sha256": "b548d6f81f241b1f663e1adcc38c374294de345b0dd954169d4452d12800eb83"
+      }
+    },
+    {
+      "meeting_id": "b23e54b2-7ca8-53ff-8aca-066201c759eb",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-91b46feb42c5435585b3d176b6b495c8/snapshot/artifacts/w02/workflows/WF-ff00a378288d4fa489118991f2304842/sources/2.json",
+        "sha256": "8ff4fa00795972437c19d771ef8efeb8e97ef5e9991e7c3e4dac55590e011a97"
+      }
+    },
+    {
+      "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+      "file": {
+        "path": "artifacts/w02/runs/RUN-91b46feb42c5435585b3d176b6b495c8/snapshot/artifacts/w02/workflows/WF-ff00a378288d4fa489118991f2304842/sources/3.json",
+        "sha256": "19bae280e1d3680c92235a34b53dfc92d741bbbdc9f629eac45bcaef07c9a576"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-001-0001",
+      "statement": "对于会员、订单、门店等数据各块由谁维护及导出权限等具体责任和权限细节，受访者表示无法确认。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "角色：周老师",
+        "范围：数据维护与导出权限"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "b78a67f5-b5f4-5966-867e-7f754fbf8e2a",
+          "message_id": "MSG-02525",
+          "quote": "导出权限"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-002-0002",
+      "statement": "核销记录的查看归属和负责人未明确，目前缺乏可确认口径。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "角色：林经理",
+        "范围：核销记录"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "aa9cc44b-243a-5f80-883f-d5e1cfc545b5",
+          "message_id": "MSG-02862",
+          "quote": "不掌握"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    },
+    {
+      "id": "CLM-003-0003",
+      "statement": "沈总对80万活跃会员的声明：按此数在看，不是已核实的口径。",
+      "kind": "fact",
+      "evidence_status": "reported",
+      "qualifiers": [
+        "角色：沈总",
+        "范围：80万活跃会员",
+        "限定：非已核实口径"
+      ],
+      "evidence": [
+        {
+          "meeting_id": "5aa0d411-3345-5aa3-851a-6977bc91a4ce",
+          "message_id": "MSG-02904",
+          "quote": "活跃会员"
+        }
+      ],
+      "conflict_ids": [],
+      "review": {
+        "status": "pending",
+        "note": ""
+      }
+    }
+  ],
+  "conflicts": []
+}

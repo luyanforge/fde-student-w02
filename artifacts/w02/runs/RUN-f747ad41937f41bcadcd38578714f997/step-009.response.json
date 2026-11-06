@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-022\",\n      \"statement\": \"会员账本信息未提供有效信息，仅见访谈者要求，无受访者陈述。\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"仅见访谈者要求，无受访者陈述\"\n      ],\n      \"evidence\": [],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 3990,
+    "completion_tokens": 305,
+    "total_tokens": 4295
+  }
+}

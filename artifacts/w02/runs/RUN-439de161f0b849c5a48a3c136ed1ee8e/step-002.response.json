@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"C-001\",\"statement\":\"本期智能营销方案的数据口径与核实用途，需要核实会员复购率定义、活跃会员定义、上期平台使用记录，以及数据范围与前置条件。\",\"kind\":\"question\",\"evidence_status\":\"unknown\",\"qualifiers\":[\"本批仅含访谈者提问，无受访者陈述\"],\"evidence\":[],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 4305,
+    "completion_tokens": 189,
+    "total_tokens": 4494
+  }
+}

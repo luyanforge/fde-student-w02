@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"claims\": [\n    {\n      \"id\": \"C-001\",\n      \"statement\": \"会员、订单、门店三类数据分别由谁维护、由谁授权导出，取数需要哪些前置条件和签批环节？\",\n      \"kind\": \"question\",\n      \"evidence_status\": \"unknown\",\n      \"qualifiers\": [\n        \"本批仅含访谈者提问，无受访者陈述\"\n      ],\n      \"evidence\": [],\n      \"conflict_ids\": [],\n      \"review\": {\n        \"status\": \"pending\",\n        \"note\": \"\"\n      }\n    }\n  ]\n}"
+  },
+  "usage": {
+    "prompt_tokens": 4144,
+    "completion_tokens": 978,
+    "total_tokens": 5122
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"answer\": \"核销记录的责任人文档没有明确说明。会员经营效果数据可以取到，但具体如何取、由谁负责需要进一步确认。\"\n}\n</think>\n\n{\n  \"answer\": \"核销记录的责任人文档没有明确说明。会员经营效果数据可以取到，但具体如何取、由谁负责需要进一步确认。\"\n}"
+  },
+  "usage": {
+    "prompt_tokens": 462,
+    "completion_tokens": 398,
+    "total_tokens": 860
+  }
+}

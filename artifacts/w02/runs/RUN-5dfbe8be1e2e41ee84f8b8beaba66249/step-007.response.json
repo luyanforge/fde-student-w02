@@ -1,0 +1,11 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": "{\"claims\":[{\"id\":\"QINGHE-001\",\"statement\":\"具体怎么改，得结合实际工作再看。\",\"kind\":\"opinion\",\"evidence_status\":\"reported\",\"qualifiers\":[\"受访者（林经理）明确声明此为个人判断，针对会员范围、活跃定义、80万是否按此口径等问题的处理决策\",\"判断依据来源于运营侧实际工作记录\",\"该判断不代表客户公司口径\",\"涉及权限边界：全公司数据口径的裁决权归属未由受访者确认\"],\"evidence\":[{\"meeting_id\":\"aa9cc44b-243a-5f80-883f-d5e1cfc545b5\",\"message_id\":\"MSG-02744\",\"quote\":\"得结合实际工作再看\"}],\"conflict_ids\":[],\"review\":{\"status\":\"pending\",\"note\":\"\"}}]}"
+  },
+  "usage": {
+    "prompt_tokens": 3918,
+    "completion_tokens": 471,
+    "total_tokens": 4389
+  }
+}
